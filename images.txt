@@ -1,5 +1,5 @@
 elasticsearch:7.17.21
-elasticsearch:8
+elasticsearch:8.14.0
 pytorch/pytorch
 tensorflow/tensorflow
 graylog/graylog:5.2
@@ -23,3 +23,4 @@ ubuntu-debootstra
 ros
 rust
 scratch
+eipwork/kuboard
