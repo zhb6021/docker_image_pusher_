@@ -28,13 +28,11 @@ jobs:
             [[ -z "$line" ]] && continue
             echo "docker pull $line"
             docker pull $line
-            echo "test_TENCENT_NAME_SPACE: $TENCENT_NAME_SPACE"
-            echo "test_TENCENT_REGISTRY: $TENCENT_REGISTRY"
             # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
             image=$(echo "$line" | awk '{print $NF}')
             # 获取 镜像名:版本号  例如nginx:1.25.3
             image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
-            new_image="$TENCENT_NAME_SPACE/$TENCENT_REGISTRY/$image_name_tag"
+            new_image="https://ccr.ccs.tencentyun.com/$TENCENT_NAME_SPACE/$TENCENT_REGISTRY/$image_name_tag"
             echo "docker tag $image $new_image"
             docker tag $image $new_image
             echo "docker push $new_image"
