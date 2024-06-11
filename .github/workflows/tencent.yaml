@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 env:
   TENCENT_REGISTRY: "${{ secrets.TENCENT_REGISTRY }}"
   TENCENT_NAME_SPACE: "${{ secrets.TENCENT_NAME_SPACE }}"
