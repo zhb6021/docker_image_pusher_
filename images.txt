@@ -1,5 +1,2 @@
-nginx
-kasmweb/nginx:1.25.3
-xhofe/alist:latest
---platform=linux/arm64 xiaoyaliu/alist
-linux-command:latest
+nginx:1.25.3
+
