@@ -1,1 +1,1 @@
-ghcr.io/monlor/xiaoya-alist:latestst
+ghcr.io/monlor/xiaoya-alist
