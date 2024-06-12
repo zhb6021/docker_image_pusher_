@@ -8,7 +8,6 @@ permissions:
   contents: write
 
 env:
-  TENCENT_REGISTRY: "${{ secrets.TENCENT_REGISTRY }}"
   TENCENT_NAME_SPACE: "${{ secrets.TENCENT_NAME_SPACE }}"
   TENCENT_REGISTRY_USER: "${{ secrets.TENCENT_REGISTRY_USER }}"
   TENCENT_REGISTRY_PASSWORD: "${{ secrets.TENCENT_REGISTRY_PASSWORD }}"

@@ -9,7 +9,7 @@ ruby
 debian
 tomcat:8
 tomcat
-jenkins
+jenkins/jenkins:2.346.1-lts
 kibana
 neo4j
 fedora
@@ -24,3 +24,5 @@ ros
 rust
 scratch
 eipwork/kuboard
+gitlab/gitlab-ce:latest
+gitlab/gitlab-runner:latest
