@@ -28,7 +28,6 @@ linuxserver/transmission
 esphome/esphome
 whyour/qinglong:latest
 ghcr.io/vogler/free-games-claimer
-twang2218/gitlab-ce-zh
 johngong/qbittorrent
 nyanmisaka/jellyfin:latest
 oldiy/transmission-twc
