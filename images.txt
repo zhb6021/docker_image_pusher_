@@ -10,7 +10,7 @@ debian
 tomcat:8
 tomcat
 jenkins/jenkins:2.346.1-lts
-kibana
+kibana:8.2.0
 neo4j
 fedora
 sentry
