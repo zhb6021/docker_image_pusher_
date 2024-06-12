@@ -1,1 +1,1 @@
-haroldli/xiaoya-tvbox:latest
+ghcr.io/monlor/xiaoya-alist:latestst
