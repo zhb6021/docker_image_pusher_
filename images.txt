@@ -29,7 +29,6 @@ esphome/esphome
 whyour/qinglong:latest
 ghcr.io/vogler/free-games-claimer
 johngong/qbittorrent
-nyanmisaka/jellyfin:latest
 oldiy/transmission-twc
 emqx/emqx
 nodered/node-red
