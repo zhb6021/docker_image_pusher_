@@ -28,13 +28,14 @@ linuxserver/transmission
 esphome/esphome
 whyour/qinglong:latest
 ghcr.io/vogler/free-games-claimer
-alipapa/epicgames-claimer
 gitlab/gitlab-ee
 twang2218/gitlab-ce-zh
 johngong/qbittorrent
 nyanmisaka/jellyfin:latest
 oldiy/transmission-twc
-shmilyin/nas-tools
 emqx/emqx
 nodered/node-red
 deluan/navidrome
+registry
+konradkleine/docker-registry-frontend:v2
+registry:2
