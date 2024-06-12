@@ -5,5 +5,7 @@ jxxghp/moviepilot:latest
 nevinee/qbittorrent:4.6.0
 emby/embyserver:latest
 hsuyelin/nas-tools:latest
+--platform=手动 amilys/embyserver:beta
+--platform=手动 linuxserver/qbittorrent:4.6.0
 --platform=linux/amd64 redis:7.0.15-alpine3.20
 --platform=linux/arm/v7 redis:7.0.15-alpine3.20
