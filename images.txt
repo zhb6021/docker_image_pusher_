@@ -33,7 +33,6 @@ oldiy/transmission-twc
 emqx/emqx
 nodered/node-red
 deluan/navidrome
-konradkleine/docker-registry-frontend:v2
 registry:2
 haroldli/xiaoya-tvbox:latest
 ghcr.io/monlor/xiaoya-metadata
