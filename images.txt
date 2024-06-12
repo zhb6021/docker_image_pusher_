@@ -1,1 +1,1 @@
-ghcr.io/monlor/xiaoya-metadata
+haroldli/xiaoya-tvbox:latest
