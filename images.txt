@@ -34,6 +34,5 @@ emqx/emqx
 nodered/node-red
 deluan/navidrome
 registry:2
-ghcr.io/monlor/xiaoya-metadata
 ghcr.io/monlor/xiaoya-embyserver
 ghcr.io/monlor/xiaoya-jellyfin:latest
