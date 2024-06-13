@@ -2,3 +2,5 @@ xhofe/alist:latest
 linuxserver/qbittorrent
 cloudnas/clouddrive2-unstable
 gdy666/lucky
+hsuyelin/nas-tools
+stainless403/mdcx-builtin-gui-base
