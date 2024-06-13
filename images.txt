@@ -5,3 +5,4 @@ kasmweb/nginx:1.25.3
 --platform=linux/arm/v7 xhofe/alist-aria2:latest
 --platform=linux/arm/v7 helloz/zdir
 --platform=linux/arm/v7 portainer/portainer
+--platform=linux/arm/v7 Container Station
