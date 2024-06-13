@@ -1,1 +1,10 @@
-alpine:3.18.2
+haroldli/xiaoya-tvbox:latest
+msterzhang/onelist:latest
+linuxserver/resilio-sync:latest
+ddsderek/xiaoya-cron:latest
+ddsderek/xiaoya-glue:latest
+xiaoyaliu/glue:latest
+containrrr/watchtower:latest
+shenxianmq/auto_symlink:latest
+msterzhang/onelist:latest
+ddsderek/xiaoya-emd:latest
