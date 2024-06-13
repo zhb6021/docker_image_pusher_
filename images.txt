@@ -1,4 +1,4 @@
-nginx
 xhofe/alist:latest
 xiaoyaliu/alist
 linuxserver/qbittorrent
+clouddrive2-unstable
