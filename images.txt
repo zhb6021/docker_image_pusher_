@@ -1,4 +1,4 @@
 xhofe/alist:latest
-xiaoyaliu/alist
 linuxserver/qbittorrent
-clouddrive2-unstable
+cloudnas/clouddrive2-unstable
+gdy666/lucky
