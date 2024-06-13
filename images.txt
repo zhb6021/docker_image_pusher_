@@ -1,1 +1,2 @@
-ghcr.io/monlor/xiaoya-alist
+baiduapp:1.0
+alpine:3.18.2
