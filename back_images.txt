@@ -46,3 +46,12 @@ python:alpine3.19
 mysql:5.7
 mysql:8
 redis
+kibana:8.2.0
+neo4j
+fedora
+sentry
+solr
+rethinkdb
+zookeeper
+redmine
+tomee
