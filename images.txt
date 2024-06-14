@@ -1,3 +1,7 @@
 rabbitmq:3.13.3-management
 tdengine/tdengine:latest
-
+mysql:8.3.0
+busybox:1.35.0
+nacos/nacos-server:v2.3.0
+redis:7.2.4
+emqx/emqx:5.6.0
