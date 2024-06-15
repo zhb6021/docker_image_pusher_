@@ -1,2 +1,8 @@
 nginx
 langgenius/dify-api
+semitechnologies/weaviate
+postgres
+redis
+semitechnologies/weaviate
+langgenius/dify-sandbox
+ubuntu/squid
