@@ -9,3 +9,4 @@ ubuntu/squid
 langgenius/dify-web
 bytebase/bytebase
 ollama/ollama
+cr2.fit2cloud.com/1panel/maxkb
