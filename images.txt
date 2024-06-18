@@ -4,3 +4,4 @@ openmrs/openmrs-reference-application-3-backend
 openmrs/openmrs-reference-application-3-frontend
 openmrs/openmrs-reference-application-3-gateway
 openmrs/openmrs-core:dev
+openmrs/openmrs-core:nightly
