@@ -3,3 +3,4 @@ mariadb:10.11.7
 openmrs/openmrs-reference-application-3-backend
 openmrs/openmrs-reference-application-3-frontend
 openmrs/openmrs-reference-application-3-gateway
+openmrs/openmrs-core:dev
