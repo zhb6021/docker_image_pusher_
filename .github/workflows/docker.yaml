@@ -8,10 +8,10 @@ on:
     - cron: '00 23 * * *'
 
 env:
-  ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
-  ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
-  ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
-  ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
+  ALIYUN_REGISTRY: "registry.cn-guangzhou.aliyuncs.com"
+  ALIYUN_NAME_SPACE: "xulong-pro"
+  ALIYUN_REGISTRY_USER: "gdxljk888888"
+  ALIYUN_REGISTRY_PASSWORD: "Xljk@123456"
 
 jobs:
 
