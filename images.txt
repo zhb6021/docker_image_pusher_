@@ -8,3 +8,4 @@ langgenius/dify-sandbox
 ubuntu/squid
 langgenius/dify-web
 bytebase/bytebase
+ollama/ollama
