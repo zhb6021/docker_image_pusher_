@@ -1,14 +1,1 @@
-registry
-mariadb:10.11.7
-openmrs/openmrs-reference-application-3-backend
-openmrs/openmrs-reference-application-3-backend:qa
-openmrs/openmrs-reference-application-3-frontend
-openmrs/openmrs-reference-application-3-frontend:qa
-openmrs/openmrs-reference-application-3-gateway
-openmrs/openmrs-reference-application-3-gateway:qa
-openmrs/openmrs-core:dev
-openmrs/openmrs-core:nightly
-node:18-alpine
-nginx:1.25-alpine
-mysql:5.6
 openmrs/openmrs-referenceapplication:nightly
