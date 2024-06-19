@@ -11,3 +11,4 @@ openmrs/openmrs-core:nightly
 node:18-alpine
 nginx:1.25-alpine
 mysql:5.6
+openmrs/openmrs-referenceapplication:nightly
