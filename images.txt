@@ -1,6 +1,8 @@
 alpine
 kasmweb/nginx:1.25.3
 python:alpine3.19
+cloudnas/clouddrive2
+#网盘聚合工具
 amilys/embyserver
 #开心版Emby
 chenhw2/aliyun-ddns-cli
