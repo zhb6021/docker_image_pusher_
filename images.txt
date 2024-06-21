@@ -56,3 +56,5 @@ ypptec/nascab
 #文件查看修改（修改NAS系统文件）
 kasmweb/chrome:1.14.0
 #chrome浏览器
+jxxghp/moviepilot
+#Moviepilot自动化观影
