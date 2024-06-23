@@ -3,4 +3,3 @@ xhofe/alist:latest
 #支持指定架构
 
 alpine
-nginx
