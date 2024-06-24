@@ -1,1 +1,1 @@
-jxxghp/moviepilot
+chishin/nginx-proxy-manager-zh:latest
