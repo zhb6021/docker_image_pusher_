@@ -7,3 +7,5 @@ onlyoffice/documentserver:8.1
 calico/node:release-v3.25
 calico/cni:release-v3.25
 calico/kube-controllers:release-v3.25
+docker.io/nginx
+pxt_ns/nginx
