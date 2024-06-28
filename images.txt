@@ -6,3 +6,5 @@ xhofe/alist:latest
 --platform=linux/arm64 xiaoyaliu/alist
 
 pezhvak/obsidian-livesync
+mysql
+wordpress
