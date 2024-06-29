@@ -1,3 +1,2 @@
-systemake/opensign-image
-systemake/opensignserver-image
-systemake/opensign-mongo
+node:lts
+node:22-alpine
