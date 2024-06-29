@@ -1,3 +1,1 @@
-docuseal/docuseal:latest
-postgres:15
-caddy:latest
+node:18
