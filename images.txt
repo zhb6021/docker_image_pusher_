@@ -1,1 +1,3 @@
-mongo:latest
+systemake/opensign-image
+systemake/opensignserver-image
+systemake/opensign-mongo
