@@ -1,1 +1,3 @@
-eclipse-temurin:17-jre
+docuseal/docuseal:latest
+postgres:15
+caddy:latest
