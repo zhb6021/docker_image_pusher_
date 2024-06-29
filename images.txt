@@ -9,3 +9,4 @@ pezhvak/obsidian-livesync
 mysql
 wordpress
 whyour/qinglong
+hello-world
