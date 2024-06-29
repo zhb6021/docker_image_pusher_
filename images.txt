@@ -8,3 +8,4 @@ xhofe/alist:latest
 pezhvak/obsidian-livesync
 mysql
 wordpress
+whyour/qinglong
