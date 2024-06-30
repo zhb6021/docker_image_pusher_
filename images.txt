@@ -10,3 +10,4 @@ mysql
 wordpress
 whyour/qinglong
 bitnami/openresty
+halo
