@@ -1,6 +1,8 @@
---platform=linux/arm64 bluenviron/mediamtx:1.8.2
+#--platform=linux/arm64 bluenviron/mediamtx:1.8.2
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
+crazymax/goxx:1.21.5
+--platform=linux/arm64 crazymax/goxx:1.21.5
