@@ -7,3 +7,4 @@ calico/node:release-v3.25
 calico/cni:release-v3.25
 calico/kube-controllers:release-v3.25
 docker.io/nginx
+prom/prometheus
