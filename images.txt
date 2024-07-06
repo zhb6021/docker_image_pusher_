@@ -11,3 +11,5 @@ wordpress
 whyour/qinglong
 bitnami/openresty
 halohub/halo
+
+ghcr.io/gethomepage/homepage
