@@ -13,6 +13,10 @@ env:
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
+  HWYUN_REGISTRY: "${{ secrets.HUAWEI_REGISTRY }}"
+  HWYUN_NAME_SPACE: "${{ secrets.HUAWEI_NAME_SPACE }}"
+  HWYUN_REGISTRY_USER: "${{ secrets.HUAWEI_REGISTRY_USER }}"
+  HWYUN_REGISTRY_PASSWORD: "${{ secrets.HUAWEI_REGISTRY_PASSWORD }}"
 
 jobs:
 
@@ -60,6 +64,7 @@ jobs:
     - name: Build and push image Aliyun
       run: |
         docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+        docker login -u $HWYUN_REGISTRY_USER -p $HWYUN_REGISTRY_PASSWORD $HWYUN_REGISTRY
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
@@ -141,16 +146,20 @@ jobs:
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
+            new_hwimage="$HWYUN_REGISTRY/$HWYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
             echo "docker tag $image $new_image"
             docker tag $image $new_image
+            docker tag $image $new_hwimage
             echo "docker push $new_image"
             docker push $new_image
+            docker push $new_hwimage
             echo "开始清理磁盘空间"
             echo "=============================================================================="
             df -hT
             echo "=============================================================================="
             docker rmi $image
             docker rmi $new_image
+            docker rmi $new_hwimage
             echo "磁盘空间清理完毕"
             echo "=============================================================================="
             df -hT
