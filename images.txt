@@ -1,6 +1,7 @@
 #mcr.microsoft.com/mssql/server:2019-latest
 #llamafactory
-llama-factory:latest
+#llama-factory:latest
+ljxha471758/llama-factory:latest
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
