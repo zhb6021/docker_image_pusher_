@@ -8,3 +8,5 @@ calico/cni:release-v3.25
 calico/kube-controllers:release-v3.25
 docker.io/nginx
 prom/prometheus
+bitnami/prometheus-operator:0.75.1
+bitnamicharts/kube-prometheus
