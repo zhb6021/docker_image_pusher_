@@ -6,7 +6,7 @@ onlyoffice/documentserver:8.1
 calico/node:release-v3.25
 calico/cni:release-v3.25
 calico/kube-controllers:release-v3.25
-docker.io/nginx
-prom/prometheus
-bitnami/prometheus-operator:0.75.1
-docker.io/bitnamicharts/kube-prometheus
+nginx
+prometheus
+prometheus-operator
+kube-prometheus
