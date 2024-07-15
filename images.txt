@@ -1,2 +1,1 @@
-alpine
-ghcr.io/songquanpeng/one-api
+alpine:3.19.1
