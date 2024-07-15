@@ -1,1 +1,2 @@
-image: registry.cn-hangzhou.aliyuncs.com/fastgpt/pgvector:v0.5.0
+alpine
+ghcr.io/songquanpeng/one-api
