@@ -10,3 +10,4 @@ gotson/komga
 ghcr.io/home-assistant/home-assistant:stable
 nodered/node-red:latest
 jxxghp/moviepilot:latest
+lscr.io/linuxserver/librespeed:latest
