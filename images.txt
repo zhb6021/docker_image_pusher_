@@ -1,1 +1,1 @@
-registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt:v4.7
+registry.cn-hangzhou.aliyuncs.com/fastgpt_docker/m3e-large-api:latest
