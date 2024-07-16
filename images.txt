@@ -1,1 +1,1 @@
-fastgpt:v4.7
+registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt:v4.7
