@@ -4,4 +4,4 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
+nvcr.io/nvidia/k8s-device-plugin:v0.14.1
