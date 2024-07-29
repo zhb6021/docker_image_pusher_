@@ -1,4 +1,5 @@
 #支持私库
-ghcr.io/geocompx/docker:qgis
+#ghcr.io/geocompx/docker:qgis
+mysql:5.7
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
