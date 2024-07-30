@@ -25,7 +25,7 @@ jobs:
 
       - name: Build and push image TENCENT
         run: |
-          docker login https://ccr.ccs.tencentyun.com -u $TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD
+          docker login https://ccr.ccs.tencentyun.com --username=$TENCENT_REGISTRY_USER -p $TENCENT_REGISTRY_PASSWORD
           while IFS= read -r line; do
             [[ -z "$line" ]] && continue
             echo "docker pull $line"
