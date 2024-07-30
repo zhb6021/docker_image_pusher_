@@ -55,3 +55,4 @@ rethinkdb
 zookeeper
 redmine
 tomee
+certbot/certbot
