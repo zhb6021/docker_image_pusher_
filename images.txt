@@ -1,2 +1,2 @@
-certd
+registry.cn-shenzhen.aliyuncs.com/handsfree/certd:latest
 memcache:1.5.8
