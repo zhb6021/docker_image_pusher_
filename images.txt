@@ -1,5 +1,2 @@
-
-eipwork/kuboard
-gitlab/gitlab-ce:latest
-gitlab/gitlab-runner:latest
-certbot/certbot
+certd
+memcache:1.5.8

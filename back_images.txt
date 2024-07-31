@@ -56,3 +56,8 @@ zookeeper
 redmine
 tomee
 certbot/certbot
+
+eipwork/kuboard
+gitlab/gitlab-ce:latest
+gitlab/gitlab-runner:latest
+certbot/certbot
