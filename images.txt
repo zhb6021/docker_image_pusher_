@@ -1,1 +1,1 @@
-one-api:v0.6.6
+python:alpine3.19
