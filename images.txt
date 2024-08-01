@@ -1,1 +1,1 @@
-one-api:v0.6.8
+one-api:v0.6.7
