@@ -1,1 +1,1 @@
-oneapi:latest
+one-api:latest
