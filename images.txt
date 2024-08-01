@@ -1,1 +1,1 @@
-one-api:v0.6.7
+ghcr.io/songquanpeng/one-api:v0.6.7
