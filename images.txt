@@ -32,7 +32,6 @@ emby/embyserver
 linuxserver/prowlarr
 flaresolverr/flaresolverr
 cnk3x/xunlei
-ljdyw/ubuntu-novnc
 nastools/nas-tools
 linuxserver/transmission
 esphome/esphome
