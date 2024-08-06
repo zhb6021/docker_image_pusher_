@@ -1,1 +1,1 @@
-whyour/qinglong
+ghcr.io/vogler/free-games-claimer
