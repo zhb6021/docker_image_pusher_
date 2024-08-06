@@ -1,7 +1,1 @@
-oldiy/transmission-twc
-emqx/emqx
-nodered/node-red
-deluan/navidrome
-registry
-konradkleine/docker-registry-frontend:v2
-registry:2
+whyour/qinglong
