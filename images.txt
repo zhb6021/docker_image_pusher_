@@ -35,9 +35,6 @@ cnk3x/xunlei
 nastools/nas-tools
 linuxserver/transmission
 esphome/esphome
-ghcr.io/vogler/free-games-claimer
-gitlab/gitlab-ee
-twang2218/gitlab-ce-zh
 johngong/qbittorrent
 nyanmisaka/jellyfin:latest
 oldiy/transmission-twc
@@ -47,8 +44,3 @@ deluan/navidrome
 registry
 konradkleine/docker-registry-frontend:v2
 registry:2
-haroldli/xiaoya-tvbox:latest
-ghcr.io/monlor/xiaoya-metadata
-ghcr.io/monlor/xiaoya-embyserver
-ghcr.io/monlor/xiaoya-jellyfin:latest
-ghcr.io/monlor/xiaoya-alist
