@@ -35,7 +35,6 @@ cnk3x/xunlei
 nastools/nas-tools
 linuxserver/transmission
 esphome/esphome
-whyour/qinglong
 ghcr.io/vogler/free-games-claimer
 gitlab/gitlab-ee
 twang2218/gitlab-ce-zh
