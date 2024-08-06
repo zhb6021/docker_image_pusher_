@@ -11,5 +11,6 @@ wordpress
 whyour/qinglong
 bitnami/openresty
 halohub/halo
+zerotier/zerotier
 
 ghcr.io/gethomepage/homepage
