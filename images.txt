@@ -1,1 +1,1 @@
-metabase/metabase
+nginx
