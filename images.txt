@@ -1,1 +1,1 @@
-embeddedanalyzer/emba:1.4.2
+embeddedanalyzer/emba:latest
