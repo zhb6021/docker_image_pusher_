@@ -1,5 +1,2 @@
---platform=linux/amd64 bitnami/kubectl:1.28.12
---platform=linux/arm64 bitnami/kubectl:1.28.12
---platform=linux/amd64 lachlanevenson/kubectl:v1.4.7
---platform=linux/amd64 ongres/kubectl:v1.30.2-build-6.34
---platform=linux/arm64 ongres/kubectl:v1.30.2-build-6.34
+--platform=linux/amd64 docker:27.1.1
+--platform=linux/arm64 docker:27.1.1
