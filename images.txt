@@ -1,4 +1,5 @@
-jonasal/devpi-server:6.12.1
+jonasal/devpi-client:7.1.0
+#jonasal/devpi-server:6.12.1
 #registry.cn-shenzhen.aliyuncs.com/langly/devpi-suite:6.12.0
 #ray1ex/devpi:6.12.1
 #goharbor/harbor-jobservice:dev
