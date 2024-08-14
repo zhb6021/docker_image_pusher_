@@ -1,4 +1,6 @@
-nginx
-xhofe/alist:latest
+#nginx
+#xhofe/alist:latest
 #支持指定架构1
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
+jonnyan404/zerotier-moon
+keynetworks/ztncui
