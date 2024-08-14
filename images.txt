@@ -7,3 +7,4 @@ xhofe/alist:latest
 python
 ionelmc/webdav
 dqzboy/registry
+bitwarden/setup
