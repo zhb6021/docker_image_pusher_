@@ -5,4 +5,4 @@ busybox:1.35.0
 nacos/nacos-server:v2.3.0
 redis:7.2.4
 emqx/emqx:5.6.0
-rancher/mirrored-pause:3.9
+rancher/mirrored-pause:3.6
