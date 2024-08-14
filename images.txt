@@ -2,4 +2,4 @@
 #支持指定架构
 #--platform=linux/amd64 
 
-wnameless/oracle-xe-11g-r2:latest
+oracleinanutshell/oracle-xe-11g 
