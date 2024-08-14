@@ -2,5 +2,6 @@
 #xhofe/alist:latest
 #支持指定架构1
 #--platform=linux/arm64 xiaoyaliu/alist
-jonnyan404/zerotier-moon
-keynetworks/ztncui
+#jonnyan404/zerotier-moon
+#keynetworks/ztncui
+yidadaa/chatgpt-next-web
