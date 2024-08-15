@@ -9,3 +9,4 @@ emby/embyserver:latest
 --platform=linux/amd64 linuxserver/qbittorrent:4.6.0
 --platform=linux/amd64 redis:7.0.15-alpine3.20
 --platform=linux/arm/v7 redis:7.0.15-alpine3.20
+zack357/douban-tool:latest
