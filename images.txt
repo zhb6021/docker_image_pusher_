@@ -4,4 +4,5 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #jonnyan404/zerotier-moon
 #keynetworks/ztncui
-yidadaa/chatgpt-next-web
+#yidadaa/chatgpt-next-web
+openjdk:8-buster
