@@ -13,3 +13,4 @@ jxxghp/moviepilot:latest
 lscr.io/linuxserver/librespeed:latest
 hslr/sun-panel:latest
 lscr.io/linuxserver/transmission:latest
+ydkn/cups
