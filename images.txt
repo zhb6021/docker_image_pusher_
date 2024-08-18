@@ -8,3 +8,4 @@ nyanmisaka/jellyfin
 php
 kodcloud/kodbox
 mysql
+bestrui/baidu
