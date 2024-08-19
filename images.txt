@@ -3,6 +3,9 @@
 #mysql:5.7
 #nginx
 #elasticsearch:7.17.23
-osgeo/gdal:alpine-normal-3.6.2
+#osgeo/gdal:alpine-normal-3.6.2
+apache/apisix:3.9.1-redhat
+bitnami/etcd:3.5
+bitnami/apisix-dashboard:latest
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
