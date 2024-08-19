@@ -1,4 +1,6 @@
-nginx
+#支持别名（格式为 '--alias=custom_image_name' ）
+--alias=mynginx nginx
+--alias=mynginx nginx:1.26.2-alpine-perl
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest

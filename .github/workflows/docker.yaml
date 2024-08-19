@@ -67,6 +67,13 @@ jobs:
             if echo "$line" | grep -q '^\s*#'; then
                 continue
             fi
+
+            # 提取 alias 信息，如果没有 --alias 参数，alias 变量将为空
+            alias=$(echo "$line" | sed -n 's/.*--alias[ =]\([^ ]*\).*/\1/p')
+            if [ -z "$alias" ]; then
+              alias="";
+            fi
+            echo "alias is $alias"
             
             # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
             image=$(echo "$line" | awk '{print $NF}')
@@ -84,6 +91,13 @@ jobs:
             # 获取镜像名例如nginx
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
             echo "image_name: $image_name"
+            # 获取版本号 例如 1.25.3
+            image_tag=$(echo "$image_name_tag" | awk -F':' '{print $2}')
+            if [ -z "$image_tag" ]; then
+              image_tag="latest"
+            fi
+            echo "image_tag: $image_tag"
+
             
             # 如果镜像存在于数组中，则添加temp_map
             if [[ -n "${temp_map[$image_name]}" ]]; then
@@ -105,9 +119,19 @@ jobs:
             if echo "$line" | grep -q '^\s*#'; then
                 continue
             fi
+
+            # 提取 alias 信息（使用更通用的正则表达式替代 -P 选项）
+            alias=$(echo "$line" | sed -n 's/.*--alias[ =]\([^ ]*\).*/\1/p')
+            if [ -z "$alias" ]; then
+              alias="";  # 如果没有 --alias 参数，alias 变量将为空
+            fi
+            echo "alias is $alias"
+
+            # 去除 --alias 参数及其值，但保留其他参数
+            image=$(echo "$line" | sed -E 's/--alias[ =][^ ]+//g' | xargs)
         
-            echo "docker pull $line"
-            docker pull $line
+            echo "docker pull $image"
+            docker pull $image
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
             echo "platform is $platform"
             # 如果存在架构信息 将架构信息拼到镜像名称前面
@@ -126,6 +150,13 @@ jobs:
             name_space=$(echo "$image" | awk -F'/' '{if (NF==3) print $2; else if (NF==2) print $1; else print ""}')
             # 获取镜像名例  例如nginx
             image_name=$(echo "$image_name_tag" | awk -F':' '{print $1}')
+            # 获取版本号 例如 1.25.3
+            image_tag=$(echo "$image_name_tag" | awk -F':' '{print $2}')
+            if [ -z "$image_tag" ]; then
+              image_tag="latest"
+            fi
+            echo "image_tag: $image_tag"
+            
         
             name_space_prefix=""
             # 如果镜像名重名
@@ -136,8 +167,16 @@ jobs:
                fi
             fi
             
+            
             # 将@sha256:等字符删除
             image_name_tag="${image_name_tag%%@*}"
+            
+            # 检查别名并替换 image_name_tag
+            alias=$(echo "$line" | awk -F'--alias[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
+            if [ -n "$alias" ]; then
+              image_name_tag="${alias}:${image_tag}"
+            fi
+            
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
             echo "docker tag $image $new_image"
             docker tag $image $new_image
