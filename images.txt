@@ -1,6 +1,10 @@
-ros
-rust
-eipwork/kuboard
-gitlab/gitlab-ce:latest
-gitlab/gitlab-runner:latest
-certbot/certbot
+grafana/grafana:main-ubuntu
+grafana/grafana:main
+grafana/grafana:latest-ubuntu
+grafana/grafana:latest
+grafana/grafana:11.1.4-ubuntu
+grafana/grafana:11.1.1-ubuntu
+grafana/grafana:11.1.4
+grafana/grafana:11.0.3
+grafana/grafana:10.4.7-ubuntu
+grafana/grafana:9.5.17

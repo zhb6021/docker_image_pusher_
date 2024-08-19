@@ -9,7 +9,7 @@ registry.k8s.io/kube-controller-manager:v1.29.2
 registry.k8s.io/kube-apiserver:v1.29.2
 docker/desktop-kubernetes:kubernetes-v1.29.2-cni-v1.4.0-critools-v1.29.0-cri-dockerd-v0.3.11-1-debian
 nginx
-gcr.io/k8s-minikube/kicbase:v0.0.44 
+gcr.io/k8s-minikube/kicbase:v0.0.44
 alpine
 busybox
 httpd
@@ -55,3 +55,9 @@ rethinkdb
 zookeeper
 redmine
 tomee
+ros
+rust
+eipwork/kuboard
+gitlab/gitlab-ce:latest
+gitlab/gitlab-runner:latest
+certbot/certbot
