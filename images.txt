@@ -7,6 +7,7 @@
 #apache/apisix:3.9.1-redhat
 #bitnami/etcd:3.5
 #bitnami/apisix-dashboard:latest
-docker.io/library/debian:stable-slim 
+#docker.io/library/debian:stable-slim
+dimitri/pgloader
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
