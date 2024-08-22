@@ -13,6 +13,7 @@ jenkins/jenkins:2.452.2-lts-jdk17
 jenkins/ssh-agent:latest-jdk17
 almalinux:9.4
 nginx
+
 bitnami/minio:latest
 redis
 consul:1.15.4
@@ -26,3 +27,10 @@ graylog/graylog:6.0.4
 mongo:6.0.14
 opensearchproject/opensearch:2.12.0
 graylog/graylog-enterprise:6.0
+
+#支持私库
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+xhofe/alist:latest
+#支持指定架构
+--platform=linux/arm64 xiaoyaliu/alist
+
