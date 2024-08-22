@@ -22,8 +22,8 @@ gcr.io/etcd-development/etcd:v3.4.33
 mongo:5.0
 graylog/graylog:5.2
 elastic/filebeat:8.15.0
-elastic/kibana
-elastic/elasticsearch
+elastic/kibana:8.15.0
+elastic/elasticsearch:8.15.0
 graylog/graylog:6.0.4
 mongo:6.0.14
 opensearchproject/opensearch:2.12.0
