@@ -5,4 +5,5 @@
 #jonnyan404/zerotier-moon
 #keynetworks/ztncui
 #yidadaa/chatgpt-next-web
-openjdk:8-buster
+#openjdk:8-buster
+--platform=linux/arm64  nginx:1.20
