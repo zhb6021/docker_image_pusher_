@@ -1,1 +1,1 @@
-arm64v8/openjdk:8-jdk
+arm64v8/openjdk:8
