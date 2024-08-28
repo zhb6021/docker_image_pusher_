@@ -1,2 +1,2 @@
-tdengine/tdengine:3.3.2.0
+redis:7.0.0
 --platform=linux/arm64
