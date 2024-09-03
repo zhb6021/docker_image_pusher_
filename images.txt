@@ -5,4 +5,4 @@ emby/embyserver:latest
 --platform=linux amilys/embyserver:beta
 --platform=linux linuxserver/qbittorrent:4.6.0
 zack357/douban-tool:latest
---platform=linux amilys/embyserver_arm64v8:beta
+amilys/embyserver_arm64v8:latest
