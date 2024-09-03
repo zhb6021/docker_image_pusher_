@@ -7,6 +7,4 @@ emby/embyserver:latest
 --platform=linux hsuyelin/nas-tools:latest
 --platform=linux amilys/embyserver:beta
 --platform=linux linuxserver/qbittorrent:4.6.0
---platform=linux redis:7.0.15-alpine3.20
---platform=linux redis:7.0.15-alpine3.20
 zack357/douban-tool:latest
