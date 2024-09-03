@@ -1,6 +1,3 @@
-alpine
-python:alpine3.19
-kasmweb/nginx:1.25.3
 jxxghp/moviepilot:latest
 nevinee/qbittorrent:4.6.0
 emby/embyserver:latest
@@ -8,3 +5,4 @@ emby/embyserver:latest
 --platform=linux amilys/embyserver:beta
 --platform=linux linuxserver/qbittorrent:4.6.0
 zack357/douban-tool:latest
+--platform=linux amilys/embyserver_arm64v8:latest
