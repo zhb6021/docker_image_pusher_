@@ -1,6 +1,2 @@
-nginx
-redis
-golang
-mongo
+ollama/ollama
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
