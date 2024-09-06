@@ -6,4 +6,5 @@
 #keynetworks/ztncui
 #yidadaa/chatgpt-next-web
 #openjdk:8-buster
---platform=linux/amd64/v3  nginx:1.20
+#--platform=linux/amd64/v3  nginx:1.20
+bitnami/kubectl
