@@ -5,4 +5,4 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
-gcr.io/kubeflow-images-public/pytorch-operator
+gcr.io/kubeflow-images-public/pytorch-operator:v1alpha2
