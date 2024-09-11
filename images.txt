@@ -1,4 +1,5 @@
-grafana/grafana:11.2.0
+registry.k8s.io/ccr.ccs.tencentyun.com/tkeimages/kube-state-metrics:2.2.4
+#grafana/grafana:11.2.0
 #jonasal/devpi-client:7.1.0
 #jonasal/devpi-server:6.12.1
 #registry.cn-shenzhen.aliyuncs.com/langly/devpi-suite:6.12.0
