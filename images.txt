@@ -5,3 +5,4 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 arm64v8/mysql:8.0
+--platform=linux/arm64 xiaoyaliu/alist
