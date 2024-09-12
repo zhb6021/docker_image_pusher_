@@ -9,6 +9,7 @@
 #bitnami/apisix-dashboard:latest
 #docker.io/library/debian:stable-slim
 #dimitri/pgloader
-dockurr/macos
+#dockurr/macos
+apache/hadoop:3
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
