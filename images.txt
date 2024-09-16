@@ -1,2 +1,2 @@
-mysql:5.7
-
+centos:7
+nginx:1.23
