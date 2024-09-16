@@ -1,2 +1,1 @@
-centos:7
-nginx:1.23
+mysql:8.0
