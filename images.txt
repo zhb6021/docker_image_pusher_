@@ -1,2 +1,2 @@
-it-tools
+mysql:5.7
 
