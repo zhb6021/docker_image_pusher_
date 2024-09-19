@@ -1,1 +1,1 @@
-gh repo clone sameersbn/docker-postgresql
+sameersbn/docker-postgresql:master
