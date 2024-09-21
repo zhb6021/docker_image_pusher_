@@ -1,1 +1,1 @@
-sameersbn/docker-postgresql
+postgres:14
