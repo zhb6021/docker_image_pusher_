@@ -1,1 +1,1 @@
-sameersbn/docker-postgresql:master
+sameersbn/docker-postgresql
