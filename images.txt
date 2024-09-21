@@ -1,1 +1,1 @@
-postgis:3.4
+postgis/docker-postgis:12-3.4
