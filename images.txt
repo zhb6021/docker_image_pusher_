@@ -8,3 +8,4 @@
 #gcr.io/kubeflow-images-public/pytorch-operator:v1alpha2
 mysql:8.4.0
 redis:7.0-alpine3.16
+alpine:3.16
