@@ -1,1 +1,1 @@
-docker pull postgis/postgis
+postgis/postgis:12-3.4.2
