@@ -1,2 +1,5 @@
-registry.cn-shenzhen.aliyuncs.com/handsfree/certd:latest
-memcache:1.5.8
+grafana/grafana:11.2.0
+prom/prometheus:v2.54.1
+prom/node-exporter:v1.8.2
+nginx/nginx-ingress:3.6.2
+nginx/nginx-prometheus-exporter:1.3
