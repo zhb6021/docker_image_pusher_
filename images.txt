@@ -1,1 +1,1 @@
-pull docker.osgeo.org/geoserver:2.25.3
+geoserver:2.25.3
