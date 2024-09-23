@@ -1,1 +1,1 @@
-geoserver:2.25.3
+geoserver:latest
