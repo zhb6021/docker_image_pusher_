@@ -1,1 +1,1 @@
-geoserver/geoserver:2.26.0
+geoserver/geoserver:2.24.5
