@@ -11,6 +11,7 @@
 #dimitri/pgloader
 #dockurr/macos
 #apache/hadoop:3
-apache/kafka:3.8.0
+#apache/kafka:3.8.0
+apache/hive:4.0.0
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
