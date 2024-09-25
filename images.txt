@@ -11,4 +11,5 @@
 #alpine:3.16
 #nacos/nacos-server:v2.3.0
 # openjdk:21
-alpine:3.19.0
+#alpine:3.19.0
+nginx:1.27-alpine
