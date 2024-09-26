@@ -1,1 +1,1 @@
-geoserver:latest
+rocker/r-base:4.3.3
