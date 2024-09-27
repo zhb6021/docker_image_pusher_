@@ -15,3 +15,4 @@ hslr/sun-panel:latest
 lscr.io/linuxserver/transmission:latest
 ydkn/cups
 docker.io/jc21/nginx-proxy-manager:latest
+0nlylty/dockercopilot:ZSPACE
