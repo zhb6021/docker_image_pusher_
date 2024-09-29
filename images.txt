@@ -6,3 +6,4 @@ emby/embyserver:latest
 --platform=linux linuxserver/qbittorrent:4.6.0
 zack357/douban-tool:latest
 amilys/embyserver_arm64v8:latest
+ddg5366/roonserver:latest
