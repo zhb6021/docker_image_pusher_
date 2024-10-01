@@ -46,3 +46,4 @@ ghcr.io/monlor/xiaoya-embyserver
 ghcr.io/monlor/xiaoya-jellyfin:latest
 ghcr.io/monlor/xiaoya-alist
 luminoleon/epicgames-claimer
+johngong/qbittorrent:4.6.0-4.6.0.10
