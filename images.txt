@@ -1,1 +1,2 @@
-verdaccio/verdaccio
+dreamacro/clash
+haishanh/yacd
