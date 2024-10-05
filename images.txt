@@ -9,3 +9,4 @@ mysql:latest
 redis:latest
 elasticsearch:latest
 portainer/portainer:latest
+nyanmisaka/jellyfin:latest
