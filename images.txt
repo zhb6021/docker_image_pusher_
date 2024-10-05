@@ -1,1 +1,5 @@
-linuxserver/jellyfin:10.9.11
+linuxserver/jellyfin:latest
+tearsful/embyserver:latest
+nginx:latest
+emby/embyserver:latest
+jellyfin/jellyfin:latest
