@@ -1,1 +1,1 @@
-jellyfin:10.9.11
+linuxserver/jellyfin:10.9.11
