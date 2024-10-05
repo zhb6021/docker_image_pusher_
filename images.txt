@@ -7,6 +7,7 @@ manlongdan/embyserver:latest
 xiaoyaliu/alist:latest
 mysql:latest
 redis:latest
-elasticsearch:latest
 portainer/portainer:latest
 nyanmisaka/jellyfin:latest
+amilys/embyserver:latest
+ailg/alist:latest
