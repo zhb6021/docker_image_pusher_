@@ -4,3 +4,8 @@ nginx:latest
 emby/embyserver:latest
 jellyfin/jellyfin:latest
 manlongdan/embyserver:latest
+xiaoyaliu/alist:latest
+mysql:latest
+redis:latest
+elasticsearch:latest
+portainer/portainer:latest
