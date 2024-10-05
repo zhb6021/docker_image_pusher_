@@ -3,3 +3,4 @@ tearsful/embyserver:latest
 nginx:latest
 emby/embyserver:latest
 jellyfin/jellyfin:latest
+manlongdan/embyserver:latest
