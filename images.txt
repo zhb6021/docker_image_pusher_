@@ -11,3 +11,4 @@ portainer/portainer:latest
 nyanmisaka/jellyfin:latest
 amilys/embyserver:latest
 ailg/alist:latest
+tinymediamanager/tinymediamanager:latest
