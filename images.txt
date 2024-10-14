@@ -3,7 +3,6 @@ mysql
 httpd
 vulfocus/vulfocus:latest
 postgres
-oracle_11g
 sqli-labs
 oracle19c
 oracle:19c
