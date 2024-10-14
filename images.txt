@@ -1,1 +1,1 @@
-rancher/prom-node-exporter
+rancher/prom-node-exporter:v1.3.1
