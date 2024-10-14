@@ -5,6 +5,8 @@ vulfocus/vulfocus:latest
 postgres
 oracle_11g
 sqli-labs
+oracle19c
+oracle:19c
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
