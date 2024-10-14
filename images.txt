@@ -3,7 +3,6 @@ mysql
 httpd
 vulfocus/vulfocus:latest
 postgres
-sqli-labs
 oracle19c
 oracle:19c
 #支持私库
