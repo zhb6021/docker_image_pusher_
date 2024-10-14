@@ -1,1 +1,2 @@
 rancher/prom-node-exporter:v1.3.1
+rapidfort/node-exporter:1.7
