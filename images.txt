@@ -1,1 +1,2 @@
 helloz/zdir:4
+jxxghp/moviepilot:latest
