@@ -1,1 +1,2 @@
-johngong/qbittorrent:4.6.0-4.6.0.10
+ljnpng/nastools:2.9.0
+
