@@ -1,1 +1,1 @@
-docker pull tomcat:9
+docker pull tomcat
