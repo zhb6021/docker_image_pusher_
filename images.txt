@@ -1,1 +1,1 @@
-kartoza/qgis-desktop:latest
+docker pull tomcat:9
