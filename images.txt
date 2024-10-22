@@ -16,5 +16,6 @@
 # docker.io/calico/cni:v3.25.0
 # docker.io/calico/node:v3.25.0
 # docker.io/calico/kube-controllers:v3.25.0
-busybox
-docker.elastic.co/elasticsearch/elasticsearch:7.6.2
+#busybox
+#docker.elastic.co/elasticsearch/elasticsearch:7.6.2
+docker.elastic.co/kibana/kibana:7.6.2
