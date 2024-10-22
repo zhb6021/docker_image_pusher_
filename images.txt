@@ -1,3 +1,4 @@
 helloz/zdir:4
 jxxghp/moviepilot:latest
 ddsderek/wxchat:latest
+alpine/socat
