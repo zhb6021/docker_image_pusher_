@@ -41,6 +41,10 @@
 #docker.elastic.co/elasticsearch/elasticsearch:8.14.3
 #docker.elastic.co/kibana/kibana:8.14.3
 #downloads.unstructured.io/unstructured-io/unstructured-api:latest
-copernicusmarine/copernicusmarine
+#copernicusmarine/copernicusmarine
+
+valeriansaliou/sonic:v1.4.9
+
+
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
