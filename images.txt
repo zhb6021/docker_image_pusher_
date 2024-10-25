@@ -1,1 +1,3 @@
-docker pull library/tomcat
+docker pull docker-library/nginx
+docker pull libc/nginx
+docker pull tomcat
