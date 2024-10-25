@@ -1,1 +1,1 @@
-docker pull kikov79/docker-tomcat9
+docker pull tomcat:9.0-jre11
