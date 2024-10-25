@@ -1,1 +1,1 @@
-docker pull docker-library/tomcat:9.0
+docker pull docker-library/tomcat:9-jdk11
