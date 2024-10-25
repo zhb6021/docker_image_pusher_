@@ -1,1 +1,1 @@
-docker pull docker-library/tomcat
+docker pull library/tomcat
