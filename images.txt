@@ -16,3 +16,4 @@ yohe/nastool:2.9.1
 fjlzwl/nastool:latest
 nastool/nas-tools:latest
 jxxghp/moviepilot:latest
+lswl/vertex:latest
