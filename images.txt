@@ -1,1 +1,1 @@
-docker pull bitnami/tomcat
+docker pull tomcat:9.0.96-jdk11
