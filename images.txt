@@ -21,5 +21,6 @@
 # docker.elastic.co/kibana/kibana:7.6.2
 #jenkins/jenkins:2.479
 #jenkins/jenkins:lts-jdk8
-postgres:11.4
-sonarqube:lts
+#postgres:11.4
+#sonarqube:lts
+sonatype/nexus3:3.28.0
