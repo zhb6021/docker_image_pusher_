@@ -1,1 +1,1 @@
-docker pull tomcat:9.0.96-jdk11
+docker pull tomcat:9.0.30-jdk8
