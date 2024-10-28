@@ -1,1 +1,1 @@
-docker pull tomcat:9.0.30-jdk8
+docker pull library/tomcat:9.0.30-jdk8
