@@ -43,7 +43,9 @@
 #downloads.unstructured.io/unstructured-io/unstructured-api:latest
 #copernicusmarine/copernicusmarine
 
-valeriansaliou/sonic:v1.4.9
+#valeriansaliou/sonic:v1.4.9
+
+gotenberg/gotenberg:8
 
 
 #支持指定架构
