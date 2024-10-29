@@ -18,4 +18,3 @@ docker.io/jc21/nginx-proxy-manager:latest
 0nlylty/dockercopilot:ZSPACE
 zadam/trilium:latest
 nriver/trilium-cn:latest
-hslr/sun-panel:latest
