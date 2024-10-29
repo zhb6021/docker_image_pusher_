@@ -45,7 +45,9 @@
 
 #valeriansaliou/sonic:v1.4.9
 
-gotenberg/gotenberg:8
+
+#gotenberg/gotenberg:8
+kevinmou/jodconverter
 
 
 #支持指定架构
