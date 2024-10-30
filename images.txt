@@ -1,4 +1,5 @@
-python:3.9-slim
+python:3.6.8-slim
+#python:3.9-slim
 
 #sophos/nginx-vts-exporter
 #kube-state-metrics:2.2.4
