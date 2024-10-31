@@ -47,7 +47,8 @@
 
 
 #gotenberg/gotenberg:8
-kevinmou/jodconverter
+#kevinmou/jodconverter
+bitnami/etcd:3.5.1
 
 
 #支持指定架构
