@@ -3,3 +3,4 @@ jxxghp/moviepilot:latest
 ddsderek/wxchat:latest
 alpine/socat
 jlesage/mediainfo:latest
+dpanel/dpanel:lite
