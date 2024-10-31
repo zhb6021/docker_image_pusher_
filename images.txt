@@ -4,3 +4,4 @@ ddsderek/wxchat:latest
 alpine/socat
 jlesage/mediainfo:latest
 dpanel/dpanel:lite
+dpanel/dpanel:latest
