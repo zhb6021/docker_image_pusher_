@@ -48,7 +48,8 @@
 
 #gotenberg/gotenberg:8
 #kevinmou/jodconverter
-bitnami/etcd:3.5.1
+#bitnami/etcd:3.5.1
+docker.osgeo.org/geoserver:2.24.1
 
 
 #支持指定架构
