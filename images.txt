@@ -23,4 +23,5 @@
 #jenkins/jenkins:lts-jdk8
 #postgres:11.4
 #sonarqube:lts
-sonatype/nexus3:3.28.0
+#sonatype/nexus3:3.28.0
+ubuntu:22.04
