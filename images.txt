@@ -5,3 +5,4 @@ alpine/socat
 jlesage/mediainfo:latest
 dpanel/dpanel:lite
 dpanel/dpanel:latest
+mzz2017/v2raya:latest
