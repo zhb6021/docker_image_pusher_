@@ -1,11 +1,1 @@
-linuxserver/jellyfin:latest
-tearsful/embyserver:latest
-manlongdan/embyserver:latest
-xiaoyaliu/alist:latest
-nyanmisaka/jellyfin:latest
-amilys/embyserver:latest
-ailg/alist:latest
-fjlzwl/nastool:latest
-nastool/nas-tools:latest
-jxxghp/moviepilot:latest
-lswl/vertex:latest
+linuxserver/transmission:4.0.5-r0-ls220
