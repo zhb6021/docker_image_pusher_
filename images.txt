@@ -1,1 +1,1 @@
-ghcr.io/immich-app/immich-server:release
+lovechen/embyserver
