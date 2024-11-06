@@ -1,1 +1,1 @@
-vaultwarden/server:1.30.5
+ghcr.io/immich-app/immich-cli:latest
