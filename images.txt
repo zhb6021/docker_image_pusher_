@@ -4,6 +4,6 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyadocker pull mysqlliu/alist
-docker pull nginx:stable-perl
-docker pull mysql:8.0.40-debian
-docker pull redis:8.0-M02-bookworm
+docker pull nginx
+docker pull mysql
+docker pull redis
