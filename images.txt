@@ -1,3 +1,1 @@
-mysql:5.7
-onlyoffice/controlpanel:7.1.1
 onlyoffice/communityserver:7.1.1
