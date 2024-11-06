@@ -1,1 +1,1 @@
-onlyoffice/documentserver
+onlyoffice/documentserver:v7.1.1
