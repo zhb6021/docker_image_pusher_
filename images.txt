@@ -1,2 +1,2 @@
-onlyoffice/communityserver:12.7.0
+onlyoffice/communityserver:12.7.0.1936
 mysql:8.0.29
