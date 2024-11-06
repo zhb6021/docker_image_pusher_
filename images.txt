@@ -1,7 +1,8 @@
-coredns/coredns:1.9.3
-docker.io/calico/kube-controllers:v3.25.0
-docker.io/calico/node:v3.25.0
-docker.io/calico/cni:v3.25.0
+registry.k8s.io/pause:3.8
+#coredns/coredns:1.9.3
+#docker.io/calico/kube-controllers:v3.25.0
+#docker.io/calico/node:v3.25.0
+#docker.io/calico/cni:v3.25.0
 #docker.elastic.co/logstash/logstash:7.12.1
 #docker.elastic.co/beats/filebeat:7.12.1
 #docker.elastic.co/logstash/logstash:8.14.3
