@@ -19,3 +19,4 @@ docker.io/jc21/nginx-proxy-manager:latest
 zadam/trilium:latest
 nriver/trilium-cn:latest
 olbat/cupsd
+zhaojun1998/zfile:latest
