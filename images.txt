@@ -1,1 +1,1 @@
-ghcr.io/immich-app/immich-cli:latest
+mereith/van-nav:latest
