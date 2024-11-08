@@ -1,1 +1,1 @@
-mereith/van-nav:latest
+deluan/navidrome:0.52.5
