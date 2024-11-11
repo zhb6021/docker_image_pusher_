@@ -13,4 +13,4 @@ nginx
 #ghcr.io/open-webui/open-webui:main
 #ghcr.io/open-webui/open-webui:cuda
 #mintplexlabs/anythingllm
-#whisper/whisper
+whisper/whisper
