@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-schedule :
-Cron:'* 2 * * *'
+schedule:
+  - Cron:'* 2 * * *'
 env:
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
