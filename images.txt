@@ -1,48 +1,65 @@
-#文件管理
+# 文件管理
 helloz/zdir:4
-#Moviepilot
-jxxghp/moviepilot:latest
-#微信代理
+# 自动化影音Moviepilot
+jxxghp/moviepilot
+# 微信代理
 ddsderek/wxchat:latest
-alpine/socat
-jlesage/mediainfo:latest
-#下面2个都是docker管理面板
+# docker版在线mediainfo
+jlesage/mediainfo
+# 下面2个都是docker管理面板
 dpanel/dpanel:lite
 dpanel/dpanel:latest
-#扶墙
-mzz2017/v2raya:latest
-#开心版emby
+# 扶墙
+mzz2017/v2raya
+# 开心版emby
 amilys/embyserver:beta
-#docker版谷歌浏览器
+# docker版谷歌浏览器
 kasmweb/chrome:1.14.0
-#文件管理
+# 文件管理
 ypptec/nascab
-#下载服务器
-codeskyblue/gohttpserver:latest
-#签到框架
-qdtoday/qd:latest
-#小雅
-xhofe/alist:latest
-keking/kkfileview:latest
-#阿里云DDNS
-chenhw2/aliyun-ddns-cli:latest
-jgraph/drawio:latest
-surveyking/surveyking:latest
-#快递号分享文件
-lanol/filecodebox:latest
-dockerproxy.com/whyour/qinglong:latest
-#文件分享
-justsong/go-file:latest
-#PDF工具
-frooodle/s-pdf:latest
-#白班画画
-lovasoa/wbo:latest
-#网页书签
-shaarli/shaarli:latest
+# 下载服务器
+codeskyblue/gohttpserver
+# 签到框架
+qdtoday/qd
+# 网盘alist
+xhofe/alist
+# PDF在线预览
+keking/kkfileview
+# 阿里云DDNS
+chenhw2/aliyun-ddns-cli
+# 思维导图
+jgraph/drawio
+# 考试系统
+surveyking/surveyking
+# 快递号分享文件
+lanol/filecodebox
+# 青龙面板
+dockerproxy.com/whyour/qinglong
+# 文件分享
+justsong/go-file
+# PDF工具
+frooodle/s-pdf
+# 白板画画
+lovasoa/wbo
+# 网页书签
+shaarli/shaarli
+# 觅思笔记
 jonnyan404/mrdoc-alpine
-neosmemo/memos:latest
+# 备忘录
+neosmemo/memos
+# docker面板
 portainer/portainer-ce
-#导航页
+# 密码储存
+vaultwarden /server
+# 导航页
 helloz/onenav:latest
-#MP V2
+# MP V2
 jxxghp/moviepilot-v2:latest
+# 私人聊天服务器
+privoce/vocechat-server
+# 电子书管理
+lscrio/linuxserver/calibre-web
+# 兰空图床
+halcyonazure/Isky-pro-docker
+# 问答论坛
+answerdev/answer
