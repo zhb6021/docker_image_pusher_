@@ -63,3 +63,5 @@ lscrio/linuxserver/calibre-web
 halcyonazure/Isky-pro-docker
 # 问答论坛
 answerdev/answer
+# clouddiver2
+cloudnas/clouddrive2
