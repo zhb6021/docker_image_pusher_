@@ -66,6 +66,6 @@ answerdev/answer
 # clouddiver2
 cloudnas/clouddrive2
 # qb下载
-lscr.io/linuxserver/qbittorrent
+lscr.io/linuxserver/qbittorrent:4.3.9
 # tr下载
-linuxserver/transmission
+linuxserver/transmission:3.0.0
