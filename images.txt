@@ -69,3 +69,4 @@ cloudnas/clouddrive2
 lscr.io/linuxserver/qbittorrent:4.3.9
 # tr下载
 linuxserver/transmission:3.0.0
+
