@@ -26,3 +26,4 @@ jonnyan404/mrdoc-alpine
 neosmemo/memos:latest
 portainer/portainer-ce
 helloz/onenav:latest
+jxxghp/moviepilot-v2:latest
