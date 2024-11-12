@@ -65,3 +65,5 @@ halcyonazure/Isky-pro-docker
 answerdev/answer
 # clouddiver2
 cloudnas/clouddrive2
+#qb下载
+lscr.io/linuxserver/qbittorrent
