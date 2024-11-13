@@ -1,1 +1,1 @@
-jellyfin/jellyfin:latest
+emby/embyserver:latest
