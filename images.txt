@@ -1,2 +1,2 @@
-yapipro/yapi
+yapipro/yapi:latest
 mongo:latest
