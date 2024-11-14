@@ -1,1 +1,1 @@
-emby/embyserver:latest
+rabbitmq:3.9.22-management
