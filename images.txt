@@ -1,1 +1,1 @@
-eipwork/nfs-subdir-external-provisioner:4.0.2
+eipwork/nfs-subdir-external-provisioner:v4.0.2
