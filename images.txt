@@ -1,1 +1,1 @@
-quay.io/external_storage/nfs-client-provisioner:latest
+eipwork/nfs-subdir-external-provisioner:4.0.2
