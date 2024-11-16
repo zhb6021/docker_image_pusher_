@@ -12,6 +12,7 @@ whyour/qinglong
 bitnami/openresty
 halohub/halo
 zerotier/zerotier
+b3log/siyuan
 
 ghcr.io/gethomepage/homepage
 
