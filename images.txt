@@ -17,4 +17,4 @@ b3log/siyuan
 ghcr.io/gethomepage/homepage
 
 jericx/syncclipboard-server
-docker.umami.is/umami-software/umami
+docker.umami.is/umami-software/umami:postgresql-latest
