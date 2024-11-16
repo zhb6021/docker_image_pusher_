@@ -16,3 +16,4 @@ zerotier/zerotier
 ghcr.io/gethomepage/homepage
 
 jericx/syncclipboard-server
+docker.umami.is/umami-software/umami
