@@ -13,6 +13,7 @@ bitnami/openresty
 halohub/halo
 zerotier/zerotier
 b3log/siyuan
+nocobase/nocobase
 
 ghcr.io/gethomepage/homepage
 
