@@ -1,1 +1,1 @@
-rabbitmq:3.9.23-management
+redis:6.0.9
