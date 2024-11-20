@@ -54,7 +54,8 @@
 #neo4j:latest
 #python:3.11-slim
 
-frooodle/s-pdf:0.32.0
+#frooodle/s-pdf:0.32.0
+breezedeus/cnocr:latest
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
