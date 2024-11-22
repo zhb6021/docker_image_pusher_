@@ -47,3 +47,5 @@ ghcr.io/monlor/xiaoya-jellyfin:latest
 ghcr.io/monlor/xiaoya-alist
 luminoleon/epicgames-claimer
 johngong/qbittorrent:4.6.0-4.6.0.10
+ljnpng/nastools:2.9.0
+filesite/machete
