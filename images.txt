@@ -1,1 +1,1 @@
-mouday/domain-admin:latest
+mouday/domain-admin:v1.6.59
