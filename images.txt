@@ -1,1 +1,1 @@
-rustdesk/rustdesk-server:1.1.12
+mouday/domain-admin:latest
