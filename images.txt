@@ -1,1 +1,1 @@
-mouday/domain-admin:v1.6.59
+apitable apitable/all-in-one:latest
