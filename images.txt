@@ -1,1 +1,1 @@
-apitable apitable/all-in-one:latest
+apitable/all-in-one:latest
