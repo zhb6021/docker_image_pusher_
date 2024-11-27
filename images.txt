@@ -1,7 +1,2 @@
-apitable/databus-server:latest
-apitable/backend-server:latest
-apitable/imageproxy-server:latest
-apitable/init-db:latest
-apitable/init-appdata:latest
+apitable/openresty:latest
 apitable/room-server:latest
-apitable/web-server:latest
