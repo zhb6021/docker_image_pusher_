@@ -1,1 +1,4 @@
-apitable/all-in-one:latest
+redis:7.0.8
+minio/minio:RELEASE.2023-01-25T00-19-54Z
+mysql:8.0.32
+rabbitmq:3.11.9-management
