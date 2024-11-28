@@ -61,7 +61,7 @@
 
 langgenius/dify-api:0.12.1
 langgenius/dify-web:0.12.1
-
+langgenius/dify-sandbox:0.2.10
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
