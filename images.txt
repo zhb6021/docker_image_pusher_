@@ -1,4 +1,4 @@
-
+rockylinux/rockylinux:8.9
 apache/kafka:3.9.0
 alpine
 golang:1.23
