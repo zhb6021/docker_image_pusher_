@@ -1,1 +1,1 @@
-OpenResty：armv7l
+OpenResty
