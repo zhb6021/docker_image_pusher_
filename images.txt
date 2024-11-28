@@ -56,7 +56,12 @@
 
 #frooodle/s-pdf:0.32.0
 #ghcr.io/imagegenius/immich:latest
-rustdesk/rustdesk-server:1
+#rustdesk/rustdesk-server:1
+
+
+langgenius/dify-api:0.12.1
+langgenius/dify-web:0.12.1
+
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
