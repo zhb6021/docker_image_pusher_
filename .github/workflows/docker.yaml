@@ -54,6 +54,9 @@ jobs:
 
     - name: Docker Setup Buildx
       uses: docker/setup-buildx-action@v3
+    
+    - name: add execution privileges
+      run: chmod +x ./bin/clone-image.sh
 
     - name: run external script
       run: ./bin/clone-image.sh
