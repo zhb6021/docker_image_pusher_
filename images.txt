@@ -9,3 +9,4 @@ acgpiano/sqli-labs
 mysql
 mongo
 redis
+rabbitmq
