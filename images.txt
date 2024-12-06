@@ -13,11 +13,11 @@ mailcow/dovecot:2.2
 mailcow/postfix
 memcached
 mailcow/acme
-mailcow/netfilter
-mailcow/watchdog
-mailcow/dockerapi
-mailcow/solr
-mailcow/olefy
+mailcow/netfilter:1.59
+mailcow/watchdog:2.05
+mailcow/dockerapi:2.09
+mailcow/solr:1.8.3
+mailcow/olefy:1.13
 mcuadros/ofelia
 robbertkl/ipv6nat
 #支持指定架构
