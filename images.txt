@@ -3,10 +3,6 @@
 #nginx
 #mysql
 #redis
-unbound
-clamd
-rspamd
-sogo
-netfilter
+php
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
