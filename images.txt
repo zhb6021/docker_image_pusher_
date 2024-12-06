@@ -3,6 +3,9 @@
 #nginx
 #mysql
 #redis
-clamd
+mariadb
+mailcow/unbound
+mailcow/clamd
+mailcow/rspamd
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
