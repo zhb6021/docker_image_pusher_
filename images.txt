@@ -3,6 +3,6 @@
 #nginx
 #mysql
 #redis
-php
+clamd
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
