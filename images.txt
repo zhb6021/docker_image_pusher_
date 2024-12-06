@@ -9,7 +9,7 @@
 #mailcow/rspamd
 mailcow/phpfpm
 mailcow/sogo
-mailcow/dovecot
+mailcow/dovecot:2.2
 mailcow/postfix
 memcached
 mailcow/acme
