@@ -4,7 +4,7 @@
 #mysql
 #redis
 #mariadb
-mailcow/unbound:1.23
+#mailcow/unbound:1.23
 #mailcow/clamd
 #mailcow/rspamd
 #mailcow/phpfpm
@@ -20,5 +20,6 @@ mailcow/unbound:1.23
 #mailcow/olefy:1.13
 #mcuadros/ofelia
 #robbertkl/ipv6nat
+Registry
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
