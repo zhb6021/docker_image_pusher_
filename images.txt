@@ -20,6 +20,6 @@
 #mailcow/olefy:1.13
 #mcuadros/ofelia
 #robbertkl/ipv6nat
-Registry
+registry
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
