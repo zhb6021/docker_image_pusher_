@@ -3,7 +3,7 @@
 #nginx
 #mysql
 #redis
-#mariadb
+mariadb:10.5
 #mailcow/unbound:1.23
 #mailcow/clamd
 #mailcow/rspamd
