@@ -1,6 +1,6 @@
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#nginx
+nginx:mainline-alpine
 #mysql
 redis:7-alpine
 mariadb:10.5
@@ -9,10 +9,10 @@ mailcow/clamd:1.66
 mailcow/rspamd:1.98
 mailcow/phpfpm:1.91.1
 mailcow/sogo:1.127.1
-#mailcow/dovecot:2.2
-#mailcow/postfix
-#memcached
-#mailcow/acme
+mailcow/dovecot:2.2
+mailcow/postfix:1.77
+memcached:alpine
+mailcow/acme:1.90
 #mailcow/netfilter:1.59
 #mailcow/watchdog:2.05
 #mailcow/dockerapi:2.09
