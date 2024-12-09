@@ -1,7 +1,5 @@
-tianon/exim4
-memcached:1.6.26-alpine
-redis:6.2.14-alpine
-postgres:14.11
-confluentinc/cp-kafka:7.6.1
-ghcr.io/maxmind/geoipupdate:v6.1.0
-nginx:1.25.4-alpine
+getsentry/sentry:nightly
+getsentry/snuba:nightly
+getsentry/relay:nightly
+getsentry/symbolicator:nightly
+getsentry/vroom:nightly
