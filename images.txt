@@ -1,5 +1,1 @@
-getsentry/sentry:nightly
-getsentry/snuba:nightly
-getsentry/relay:nightly
-getsentry/symbolicator:nightly
-getsentry/vroom:nightly
+nginx:1.25.4-alpine
