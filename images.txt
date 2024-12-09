@@ -1,1 +1,1 @@
-amazoncorretto:17
+debian:bookworm-slim
