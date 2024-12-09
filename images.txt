@@ -2,6 +2,4 @@
 #支持指定架构
 #--platform=linux/amd64 
 
-kibana/kibana
-logstash/logstash
-elasticsearch/elasticsearch
+drakkan/sftpgo:v2.6.4
