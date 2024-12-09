@@ -10,3 +10,4 @@ mysql
 mongo
 redis
 rabbitmq
+postgres
