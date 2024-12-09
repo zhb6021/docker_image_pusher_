@@ -1,1 +1,1 @@
-altinity/clickhouse-server:23.8.11.29.altinitystable
+getsentry/relay:nightly
