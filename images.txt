@@ -1,4 +1,4 @@
---platform=linux/arm64/v8  openjdk:11.0.3-slim
+--platform=linux/arm64  openeuler/openeuler:20.03-lts
 #python:3.6.8-slim
 #python:3.9-slim
 
