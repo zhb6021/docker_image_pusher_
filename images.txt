@@ -1,7 +1,7 @@
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #nginx:mainline-alpine
-#mysql
+mysql
 #redis:7-alpine
 #mariadb:10.5
 #mailcow/unbound:1.23
