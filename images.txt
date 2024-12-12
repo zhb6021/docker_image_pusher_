@@ -23,7 +23,7 @@
 #registry
 #halohub/halo:2.20
 #ghcr.io/halo-dev/halo:2.20
-postgres:17.2
+#postgres:17.2
 #支持指定架构
 
 #--platform=linux/arm64 xiaoyaliu/alist
