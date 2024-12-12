@@ -3,7 +3,11 @@ name: Docker
 on:
   workflow_dispatch:
   push:
-    branches: [ query ]
+    branches:
+      - query
+  pull_request:
+    branches:
+      - query
 
  
 
@@ -12,8 +16,14 @@ jobs:
   build:
     name: Pull
     runs-on: ubuntu-latest
-    steps:
+    
      
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        ref: 'query' # 指定要检出的分支名称
+        
     - name: query
       run: |
        
