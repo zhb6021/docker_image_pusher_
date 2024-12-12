@@ -35,6 +35,6 @@ jobs:
             fi
             docker search   $line
 
-            docker search  --format "table {{.Name}}\t{{.StarCount}}\t{{.Description}}\t{{.Official}}" $line
+            docker search  --format "table {{.Name}}\t{{.StarCount}}\t{{.Description}}\t{{.IsOfficial}}" $line
             
         done < images.txt
