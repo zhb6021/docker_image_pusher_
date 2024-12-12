@@ -33,7 +33,8 @@ jobs:
             if echo "$line" | grep -q '^\s*#'; then
                 continue
             fi
-          
-            docker search $line
+            docker search   $line
+
+            docker search  --format "{{.Name}}: {{.StarCount}} stars : {{.DESCRIPTION}}: {{.OFFICIAL}}" $line
             
         done < images.txt
