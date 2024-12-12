@@ -49,6 +49,9 @@ jobs:
         df -hT
         echo "=============================================================================="
 
+     
+
+    
     - name: Checkout Code
       uses: actions/checkout@v4
 
@@ -73,6 +76,9 @@ jobs:
             # 将@sha256:等字符删除
             image="${image%%@*}"
             echo "image $image"
+
+            run: docker search 
+            
             # 获取镜像名:版本号  例如nginx:1.25.3
             image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
             echo "image_name_tag $image_name_tag"
@@ -105,7 +111,7 @@ jobs:
             if echo "$line" | grep -q '^\s*#'; then
                 continue
             fi
-        
+            echo "docker search $line"
             echo "docker pull $line"
             docker pull $line
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
