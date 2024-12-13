@@ -1,5 +1,5 @@
 #支持私库
 #支持指定架构
 #--platform=linux/amd64 
-
-zerotier/zerotier-one:1.12.2
+zerotier/zerotierone
+zerotier/zerotierone:1.14.2
