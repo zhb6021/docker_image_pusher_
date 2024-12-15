@@ -1,4 +1,4 @@
 #支持私库
 #支持指定架构
 #--platform=linux/amd64 
-ZeroTierOne
+jenkins/jenkins:2.479.2-jdk17
