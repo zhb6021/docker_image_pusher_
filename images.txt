@@ -1,4 +1,5 @@
 #支持私库
 #支持指定架构
 #--platform=linux/amd64 
-jenkins/jenkins:2.479.2-jdk17
+gitea/gitea:1.22.6-rootless
+gitea/gitea:1.22.6
