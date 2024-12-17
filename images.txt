@@ -1,1 +1,1 @@
-jeessy/ddns-go:v6.7.7
+apitable/nodepy:16.15.0-alpine
