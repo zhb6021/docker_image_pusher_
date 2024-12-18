@@ -59,9 +59,12 @@
 #rustdesk/rustdesk-server:1
 
 
-langgenius/dify-api:0.12.1
-langgenius/dify-web:0.12.1
-langgenius/dify-sandbox:0.2.10
+#langgenius/dify-api:0.12.1
+#langgenius/dify-web:0.12.1
+#langgenius/dify-sandbox:0.2.10
+
+rabbitmq:3.13-management-alpine
+
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
