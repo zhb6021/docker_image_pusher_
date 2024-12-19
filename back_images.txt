@@ -55,18 +55,20 @@ rethinkdb
 zookeeper
 redmine
 tomee
-<<<<<<< HEAD
 certbot/certbot
 
 eipwork/kuboard
 gitlab/gitlab-ce:latest
 gitlab/gitlab-runner:latest
 certbot/certbot
-=======
 ros
 rust
 eipwork/kuboard
 gitlab/gitlab-ce:latest
 gitlab/gitlab-runner:latest
 certbot/certbot
->>>>>>> 1fea74acc755c5ae6af3105d208f20eb7cb0629b
+grafana/grafana:11.2.0
+prom/prometheus:v2.54.1
+prom/node-exporter:v1.8.2
+nginx/nginx-ingress:3.6.2
+nginx/nginx-prometheus-exporter:1.3
