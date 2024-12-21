@@ -1,1 +1,1 @@
-apitable/nodepy:16.15.0-alpine
+homeassistant/home-assistant:2024.12.5
