@@ -1,4 +1,5 @@
 #支持私库
 #支持指定架构
 #--platform=linux/amd64 
-ghcr.io/ansible/creator-ee:v0.22.0
+docker.io/kubernetesui/metrics-scraper:v1.0.8
+docker.io/kubernetesui/dashboard:v2.7.0
