@@ -1,4 +1,9 @@
-rook/ceph:v1.10.11
+goharbor/harbor-core:dev
+goharbor/notary-server-photon:dev
+goharbor/harbor-portal:dev
+goharbor/trivy-adapter-photon:dev
+
+#rook/ceph:v1.10.11
 
 #infinilabs/easysearch:1.9.1-1950
 #grafana/grafana:11.4.0
