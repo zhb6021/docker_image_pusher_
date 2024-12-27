@@ -1,5 +1,6 @@
-sameersbn/postgresql
-sameersbn/redis
+sameersbn/gitlab:12.1.6
+#sameersbn/postgresql
+#sameersbn/redis
 
 #goharbor/harbor-core:dev
 #goharbor/notary-server-photon:dev
