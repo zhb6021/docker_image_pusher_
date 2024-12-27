@@ -7,3 +7,4 @@ xhofe/alist:latest
 nginx
 python:3.8-slim
 openjdk:17-jdk
+mysql：5.7
