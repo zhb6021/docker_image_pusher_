@@ -1,7 +1,10 @@
-goharbor/harbor-core:dev
-goharbor/notary-server-photon:dev
-goharbor/harbor-portal:dev
-goharbor/trivy-adapter-photon:dev
+sameersbn/postgresql
+sameersbn/redis
+
+#goharbor/harbor-core:dev
+#goharbor/notary-server-photon:dev
+#goharbor/harbor-portal:dev
+#goharbor/trivy-adapter-photon:dev
 
 #rook/ceph:v1.10.11
 
