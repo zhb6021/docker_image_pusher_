@@ -1,1 +1,1 @@
-platform=linux/arm/v7 lrcapi:latest
+hisatri/lrcapi
