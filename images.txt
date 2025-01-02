@@ -63,7 +63,9 @@
 #langgenius/dify-web:0.12.1
 #langgenius/dify-sandbox:0.2.10
 
-rabbitmq:3.13-management-alpine
+#rabbitmq:3.13-management-alpine
+
+minio/minio:RELEASE.2024-12-18T13-15-44Z
 
 
 #支持指定架构
