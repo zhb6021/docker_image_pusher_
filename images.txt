@@ -1,1 +1,1 @@
-docker pull gdy666/lucky:v2.14.0
+docker pull lucky
