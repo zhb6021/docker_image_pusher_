@@ -1,1 +1,1 @@
-docker pull nginx
+docker pull gdy666/lucky
