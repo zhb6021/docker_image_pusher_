@@ -9,4 +9,5 @@
 #--platform=linux/amd64/v3  nginx:1.20
 #bitnami/kubectl
 #ghcr.io/linuxserver/duplicati
-1panel-php:7.3.33
+#1panel-php:7.3.33
+nginx:1.22
