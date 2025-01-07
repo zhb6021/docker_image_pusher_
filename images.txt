@@ -21,3 +21,4 @@ nriver/trilium-cn:latest
 olbat/cupsd
 zhaojun1998/zfile:latest
 itushan/mtab
+axboy/leanote
