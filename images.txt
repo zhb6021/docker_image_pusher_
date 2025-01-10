@@ -1,4 +1,5 @@
 #支持私库
 #支持指定架构
 #--platform=linux/amd64 
-docker.io/calico/node:v3.27.1
+kubernetesui/metrics-scraper:v1.0.8
+kubernetesui/dashboard:v2.7.0
