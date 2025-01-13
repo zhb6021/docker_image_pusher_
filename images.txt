@@ -23,4 +23,5 @@ zhaojun1998/zfile:latest
 itushan/mtab
 axboy/leanote
 amilys/embyserver_arm64v8
+mariadb
 
