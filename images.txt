@@ -1,1 +1,2 @@
 docker.io/vulhub/fastjson:latest
+--platform=linux/amd64
