@@ -25,5 +25,6 @@
 #sonarqube:lts
 #sonatype/nexus3:3.28.0
 #ubuntu:22.04
-apache/iotdb-web-workbench:0.13.0-backend
-apache/iotdb-web-workbench:0.13.0-frontend
+#apache/iotdb-web-workbench:0.13.0-backend
+#apache/iotdb-web-workbench:0.13.0-frontend
+apache/iotdb:1.3.2-standalone
