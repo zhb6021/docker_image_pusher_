@@ -1,1 +1,1 @@
-milvusdb/milvus:v2.5.3
+milvus-2.5.2
