@@ -1,1 +1,1 @@
-redis:latest
+openjdk:11-jre-alpine
