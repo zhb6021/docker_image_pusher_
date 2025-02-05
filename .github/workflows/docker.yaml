@@ -57,7 +57,7 @@ jobs:
 
     - name: Build and push image Aliyun
       run: |
-        docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+        docker login --username=aliyun7099899641 crpi-t3e1lvqi94j9g52x.cn-hangzhou.personal.cr.aliyuncs.com
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
