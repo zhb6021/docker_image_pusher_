@@ -70,7 +70,7 @@
 
 langgenius/dify-api:0.15.3
 langgenius/dify-web:0.15.3
-langgenius/dify-sandbox:0.15.3
+
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
