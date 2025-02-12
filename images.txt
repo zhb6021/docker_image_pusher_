@@ -68,9 +68,11 @@
 #minio/minio:RELEASE.2024-12-18T13-15-44Z
 
 
-langgenius/dify-api:0.15.3
-langgenius/dify-web:0.15.3
+#langgenius/dify-api:0.15.3
+#langgenius/dify-web:0.15.3
 
+
+python:3.12.9-alpine3.21
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
