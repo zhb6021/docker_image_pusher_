@@ -1,1 +1,1 @@
-xprobe/xinference:latest
+ollama/ollama:latest
