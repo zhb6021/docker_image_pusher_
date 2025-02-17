@@ -1,3 +1,5 @@
+grafana/grafana
+bitnami/prometheus
 gitlab/gitlab-runner
 gitlab/gitlab-runner:ubuntu-e4d6f23a
 gitlab/gitlab-ee:17.8.2-ee.0
