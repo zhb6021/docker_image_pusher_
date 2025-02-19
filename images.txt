@@ -1,3 +1,4 @@
+gerritcodereview/gerrit:3.11.1-ubuntu24
 jenkins/jenkins:lts-jdk17
 grafana/grafana
 bitnami/prometheus
