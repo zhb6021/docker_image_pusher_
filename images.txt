@@ -33,8 +33,9 @@
 #ollama/ollama
 #node:18-alpine
 #prom/prometheus
-quay.io/coreos/etcd:v3.5.5
-minio/minio:RELEASE.2023-03-20T20-16-18Z
-milvusdb/milvus:v2.3.1
-zilliz/attu:v2.2.6
+#quay.io/coreos/etcd:v3.5.5
+#minio/minio:RELEASE.2023-03-20T20-16-18Z
+#milvusdb/milvus:v2.3.1
+#zilliz/attu:v2.2.6
+timescale/timescaledb:latest-pg17
 
