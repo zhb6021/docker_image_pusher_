@@ -1,6 +1,12 @@
 nginx
+mysql
+httpd
+vulfocus/vulfocus:latest
+postgres
+registry.cn-hangzhou.aliyuncs.com/zhuyijun/oracle:19c
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+tophant/arl
