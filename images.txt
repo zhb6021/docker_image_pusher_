@@ -1,1 +1,2 @@
-semitechnologies/weaviate:1.19.0
+ghcr.io/mendableai/firecrawl
+redis:alpine
