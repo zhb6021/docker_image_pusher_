@@ -1,2 +1,1 @@
-ollama/ollama:latest
-ghcr.io/open-webui/open-webui:main
+python:3.11-alpine3.19
