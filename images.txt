@@ -11,3 +11,5 @@ mongo
 redis
 rabbitmq
 postgres
+malaohu/mobaxterm-genkey
+
