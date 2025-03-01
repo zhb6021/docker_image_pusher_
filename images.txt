@@ -1,4 +1,6 @@
 #支持私库
 #支持指定架构
 #--platform=linux/amd64 
-mysql:8.4.4
+prom/mysqld-exporter:v0.15.0
+prom/prometheus:latest
+grafana/grafana:latest
