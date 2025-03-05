@@ -6,3 +6,5 @@ xhofe/alist:latest
 --platform=linux/arm64 xiaoyaliu/alist
 ubuntu
 redis
+node:22-alpine3.20
+python:3.11-slim-bookworm
