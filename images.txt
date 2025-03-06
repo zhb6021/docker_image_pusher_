@@ -1,5 +1,4 @@
 mereith/van-blog
 nginx
 mongo
-alpine
 halcyonazure/lsky-pro-docker
