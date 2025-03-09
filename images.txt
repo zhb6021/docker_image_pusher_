@@ -2,5 +2,6 @@
 #支持指定架构
 #--platform=linux/amd64 
 
-ghcr.io/open-webui/open-webui:main
-langgenius/dify-web:latest
+#ghcr.io/open-webui/open-webui:main
+#langgenius/dify-web:latest
+store/oracle/database-enterprise:12.2.0.1
