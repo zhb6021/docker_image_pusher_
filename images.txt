@@ -1,5 +1,5 @@
 #支持私库
 #支持指定架构
 #--platform=linux/amd64 
-mcr.microsoft.com/mssql/rhel/server:2022-latest
-mcr.microsoft.com/mssql/rhel/server:2019-latest
+ghcr.io/open-webui/open-webui:main
+langgenius/dify-web:latest
