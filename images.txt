@@ -38,4 +38,5 @@
 #milvusdb/milvus:v2.3.1
 #zilliz/attu:v2.2.6
 #timescale/timescaledb:latest-pg17
-1panel/maxkb
+#1panel/maxkb
+kong:3.9.0
