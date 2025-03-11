@@ -39,4 +39,6 @@
 #zilliz/attu:v2.2.6
 #timescale/timescaledb:latest-pg17
 #1panel/maxkb
-kong:3.9.0
+#kong:3.9.0
+kubernetesui/dashboard:v2.7.0
+kubernetesui/metrics-scraper:v1.0.8
