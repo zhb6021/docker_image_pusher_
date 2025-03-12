@@ -59,6 +59,13 @@ registry.cn-hangzhou.aliyuncs.com 即 ALIYUN_REGISTRY(阿里云仓库地址)<br>
 shrimp-images 即 ALIYUN_NAME_SPACE(阿里云命名空间)<br>
 alpine 即 阿里云中显示的镜像名<br>
 
+### 镜像版本
+
+阿里云的镜像列表页面是看不见镜像的版本的，需要进入“部署”界面方可以在下拉列表中看到所有镜像版本。
+
+![image](https://github.com/user-attachments/assets/e0d480df-9999-49db-a88a-847873ebef76)
+
+
 ### 多架构
 需要在images.txt中用 --platform=xxxxx手动指定镜像架构
 指定后的架构会以前缀的形式放在镜像名字前面
