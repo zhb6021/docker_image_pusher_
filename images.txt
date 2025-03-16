@@ -83,7 +83,7 @@ redis:latest
 #docker.io/jenkins/jenkins
 #jenkins/inbound-agent:3256.v88a_f6e922152-1
 #python:3
-#docker.io/jenkins/jenkins:2.452.2-jdk17
+docker.io/jenkins/jenkins:2.452.2-jdk17
 #dashboard
 #kubernetesui/metrics-scraper:v1.0.8
 #kubernetesui/dashboard:v2.7.0
