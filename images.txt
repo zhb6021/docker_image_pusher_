@@ -1,7 +1,7 @@
-nacos/nacos-server:v2.1.0
-nacos/nacos-server
-registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.9.1-management
-redis:latest
+#nacos/nacos-server:v2.1.0
+#nacos/nacos-server
+#registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.9.1-management
+#redis:latest
 #rabbitmq:3.9.15-management
 #herberthe0229/iptv-sources:latest
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4@sha256:a9f03b34a3cbfbb26d103a14046ab2c5130a80c3d69d526ff8063d2b37b9fd3f
