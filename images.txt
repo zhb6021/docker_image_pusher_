@@ -80,10 +80,10 @@
 #docker.io/kiwigrid/k8s-sidecar:1.27.4
 #jenkins/jnlp-agent-maven:latest
 #docker.io/bats/bats:1.11.0
-#docker.io/jenkins/jenkins
+docker.io/jenkins/jenkins
 #jenkins/inbound-agent:3256.v88a_f6e922152-1
 #python:3
-docker.io/jenkins/jenkins:2.452.2-jdk17
+#docker.io/jenkins/jenkins:2.452.2-jdk17
 #dashboard
 #kubernetesui/metrics-scraper:v1.0.8
 #kubernetesui/dashboard:v2.7.0
