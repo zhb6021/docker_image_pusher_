@@ -2,4 +2,7 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #mintplexlabs/anythingllm:latest
-ubuntu:jammy-20240627.1
+#ubuntu:jammy-20240627.1
+langgenius/dify-web:latest
+langgenius/dify-api:latest
+langgenius/dify-plugin-daemon:0.0.4
