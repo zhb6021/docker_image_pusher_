@@ -1,4 +1,5 @@
-pryorda/vmware_exporter
+mongo:8.0.5
+#pryorda/vmware_exporter
 #sameersbn/gitlab:12.1.6
 #sameersbn/postgresql
 #sameersbn/redis
