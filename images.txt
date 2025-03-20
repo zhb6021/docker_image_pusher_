@@ -74,7 +74,11 @@
 
 #python:3.12.9-alpine3.21
 
-vinlic/metaso-free-api:latest
+#vinlic/metaso-free-api:latest
+
+#推流
+zlmediakit/zlmediakit:master
+
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
