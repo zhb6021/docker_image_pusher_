@@ -1,10 +1,10 @@
-langgenius/dify-api:1.0.1
-langgenius/dify-api:1.0.1
-langgenius/dify-web:1.0.1
+langgenius/dify-api:1.1.0
+langgenius/dify-api:1.1.0
+langgenius/dify-web:1.1.0
 postgres:15-alpine
 redis:6-alpine
 langgenius/dify-sandbox:0.2.10
-langgenius/dify-plugin-daemon:0.0.4-local
+langgenius/dify-plugin-daemon:0.0.5-local
 ubuntu/squid:latest
 certbot/certbot
 nginx:latest
@@ -20,6 +20,7 @@ minio/minio:RELEASE.2023-03-20T20-16-18Z
 milvusdb/milvus:v2.5.0-beta
 opensearchproject/opensearch:latest
 opensearchproject/opensearch-dashboards:latest
+opengauss/opengauss:7.0.0-RC1
 myscale/myscaledb:1.6.4
 docker.elastic.co/elasticsearch/elasticsearch:8.14.3
 docker.elastic.co/kibana/kibana:8.14.3
