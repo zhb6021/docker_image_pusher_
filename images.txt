@@ -1,4 +1,4 @@
-wasp/wasp:0.16.2
+wasp/wasp:latest
 #mongo:8.0.5
 #pryorda/vmware_exporter
 #sameersbn/gitlab:12.1.6
