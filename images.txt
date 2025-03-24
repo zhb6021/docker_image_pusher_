@@ -4,4 +4,5 @@
 
 #ghcr.io/open-webui/open-webui:main
 #langgenius/dify-web:latest
-wvbirder/database-enterprise:12.2.0.1-slim
+#wvbirder/database-enterprise:12.2.0.1-slim
+registry.k8s.io/kube-apiserver:v1.28.15
