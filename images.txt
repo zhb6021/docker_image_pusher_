@@ -2,3 +2,4 @@ mysql:8.0
 nacos/nacos-server:latest
 nacos/nacos-mysql:5.7
 nacos/nacos-peer-finder-plugin:1.1
+ghcr.io/prometheus-community/prometheus-webhook-adapter:latest
