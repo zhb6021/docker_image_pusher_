@@ -1,12 +1,1 @@
-apitable/backend-server:latest
-apitable/openresty:latest
-apitable/init-db:latest
-apitable/room-server:latest
-apitable/web-server:latest
-apitable/databus-server:latest
-apitable/imageproxy-server:latest
-apitable/init-appdata:latest
-minio/minio:RELEASE.2023-01-25T00-19-54Z
-mysql:8.0.32
-rabbitmq:3.11.9-management
-redis:7.0.8
+python:3.11-slim
