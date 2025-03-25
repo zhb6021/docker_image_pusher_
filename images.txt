@@ -77,7 +77,11 @@
 #vinlic/metaso-free-api:latest
 
 #推流
-zlmediakit/zlmediakit:master
+#zlmediakit/zlmediakit:master
+
+
+library/ubuntu:focal
+ossrs/srs:ubuntu20
 
 
 #支持指定架构
