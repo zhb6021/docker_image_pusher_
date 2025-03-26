@@ -1,5 +1,6 @@
-quay.io/cilium/starwars:v2.1
-quay.io/cilium/json-mock:v1.3.8
+kbudde/rabbitmq-exporter:1.0.0
+#quay.io/cilium/starwars:v2.1
+#quay.io/cilium/json-mock:v1.3.8
 #mongo:8.0.5
 #pryorda/vmware_exporter
 #sameersbn/gitlab:12.1.6
