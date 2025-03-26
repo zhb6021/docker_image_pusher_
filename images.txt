@@ -1,1 +1,1 @@
-busybox:1.28
+kibana:7.12.1
