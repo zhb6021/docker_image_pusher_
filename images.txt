@@ -1,1 +1,1 @@
-python:3.11
+elasticsearch:7.12.1
