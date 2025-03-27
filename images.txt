@@ -3,7 +3,8 @@
 # milvusdb/milvus:v2.3.1
 # zilliz/attu:v2.3.1
 # python:3.11-slim
-python:3.10.12-slim
+# python:3.10.12-slim
+node:20.11.1 as vite-app
 # langchain/langchain:latest
 
 #支持私库
