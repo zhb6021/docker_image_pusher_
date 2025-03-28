@@ -9,7 +9,6 @@
 #registry.k8s.io/kube-controller-manager:v1.28.15
 #registry.k8s.io/kube-scheduler:v1.28.15
 #registry.k8s.io/kube-proxy:v1.28.15
-
 #registry.k8s.io/kube-apiserver:v1.28.2
 #registry.k8s.io/kube-controller-manager:v1.28.2
 #registry.k8s.io/kube-scheduler:v1.28.2
@@ -17,6 +16,6 @@
 #registry.k8s.io/pause:3.9
 #registry.k8s.io/etcd:3.5.9-0
 #registry.k8s.io/coredns/coredns:v1.10.1
- 
 #quay.io/tigera/operator:v1.36.7
-tigera/operator:v1.36.7
+#tigera/operator:v1.36.7
+calico/ctl:v3.29.3
