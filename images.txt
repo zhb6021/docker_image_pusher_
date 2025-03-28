@@ -1,1 +1,1 @@
-elastic/filebeat:7.17.10
+curlimages/curl:7.83.1
