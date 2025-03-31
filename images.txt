@@ -1,1 +1,1 @@
-curlimages/curl:7.83.1
+nacos/nacos-server:v2.5.1-slim
