@@ -13,3 +13,4 @@ rabbitmq
 postgres
 malaohu/mobaxterm-genkey
 gitlab/gitlab-runner
+bitnami/kafka
