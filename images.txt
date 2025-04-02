@@ -1,3 +1,1 @@
-zilliz/attu:v2.3.1
-apachepulsar/pulsar:2.11.2
-apachepulsar/pulsar-manager:v0.4.0
+milvusdb/milvus-operator:v1.2.4
