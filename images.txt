@@ -1,1 +1,3 @@
-milvusdb/milvus-operator:v1.2.4
+docker.io/milvusdb/etcd:3.5.18-r1
+minio/minio:RELEASE.2023-03-20T20-16-18Z
+apachepulsar/pulsar:3.0.7
