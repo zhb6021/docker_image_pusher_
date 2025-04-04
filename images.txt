@@ -1,5 +1,9 @@
+#nginx
 #支持私库
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
+#--platform=linux/arm64 xiaoyaliu/alist
 #--platform=linux/amd64 
 
 #ghcr.io/open-webui/open-webui:main
@@ -18,4 +22,7 @@
 #registry.k8s.io/coredns/coredns:v1.10.1
 #quay.io/tigera/operator:v1.36.7
 #tigera/operator:v1.36.7
-calico/ctl:v3.29.3
+#calico/ctl:v3.29.3
+docker.io/calico/cni:v3.25.0
+docker.io/calico/node:v3.25.0
+docker.io/calico/kube-controllers:v3.25.0
