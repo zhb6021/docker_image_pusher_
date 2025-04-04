@@ -1,1 +1,1 @@
-openjdk:8
+percona/percona-xtrabackup:2.4
