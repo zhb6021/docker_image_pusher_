@@ -10,3 +10,5 @@ alpine:latest
 nginx:latest
 allegroai/clearml:1.12.1
 docker.elastic.co/elasticsearch/elasticsearch:7.17.10
+mongo:4.4
+minio/minio:latest
