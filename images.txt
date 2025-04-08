@@ -1,3 +1,4 @@
+ghcr.io/yangchuansheng/ip_derper:latest
 gitlab/gitlab-runner:ubuntu-4d703a3f
 gitlab/gitlab-runner
 gitlab/gitlab-agent-ci-image:latest
