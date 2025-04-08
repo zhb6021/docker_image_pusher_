@@ -1,1 +1,1 @@
-python:3.11-alpine3.19
+ilanyu:golang-reverseproxy:latest
