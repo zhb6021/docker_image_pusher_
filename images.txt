@@ -1,1 +1,1 @@
-ilanyu:golang-reverseproxy:latest
+java:8-jre-alpine
