@@ -1,3 +1,4 @@
+gitlab/gitlab-ee:17.10.3-ee.0
 ghcr.io/yangchuansheng/ip_derper:latest
 gitlab/gitlab-runner:ubuntu-4d703a3f
 gitlab/gitlab-runner
