@@ -1,4 +1,5 @@
-kbudde/rabbitmq-exporter:1.0.0
+nacos/nacos-prometheus-exporter:latest
+#kbudde/rabbitmq-exporter:1.0.0
 #quay.io/cilium/starwars:v2.1
 #quay.io/cilium/json-mock:v1.3.8
 #mongo:8.0.5
