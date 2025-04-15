@@ -1,1 +1,1 @@
- docker.io/zilliz/attu:v2.2.2
+ docker.io/zilliz/attu:latest
