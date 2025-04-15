@@ -1,3 +1,4 @@
+redis:7.4.2
 gitlab/gitlab-ee:17.10.3-ee.0
 ghcr.io/yangchuansheng/ip_derper:latest
 gitlab/gitlab-runner:ubuntu-4d703a3f
@@ -32,7 +33,6 @@ almalinux:9.4
 nginx
 
 bitnami/minio:latest
-redis
 consul:1.15.4
 gcr.io/etcd-development/etcd:v3.4.33
 mongo:5.0
