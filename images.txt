@@ -1,13 +1,8 @@
 --platform=linux/arm64 python
 --platform=arm64 ubuntu:22.04
 --platform=arm64 python:3.9-slim
---platform=arm64 sodadata/soda-adventureworks
 --platform=arm64 postgres:9.6.17-alpine
 --platform=arm64 mysql:latest
---platform=arm64 mcr.microsoft.com/mssql/server:2022-latest
---platform=arm64 oracle/database:21.3.0-xe
---platform=arm64 dremio-latest:latest
---platform=arm64 vertica/vertica-ce:11.0.2-0
 --platform=arm64 python:3.8-slim
 #支持私库
 # k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
