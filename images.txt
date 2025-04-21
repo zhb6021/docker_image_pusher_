@@ -1,3 +1,1 @@
-quay.io/prometheus/alertmanager:v0.28.1
-quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0
-quay.io/prometheus/prometheus:v3.2.1
+google/cadvisor:latest
