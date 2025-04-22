@@ -22,6 +22,10 @@ def parse_image_info(image):
     image_name, tag = image_name_tag.split(':') if ':' in image_name_tag else (image_name_tag, "")
     return name_space, image_name, tag
 
+def sanitize_tag(tag):
+    """将tag中的非法字符替换为允许的字符"""
+    return re.sub(r'[^a-zA-Z0-9_.-]', '_', tag)
+
 def main():
     # 登录阿里云容器镜像服务
     run_command(f"docker login -u {os.getenv('ALIYUN_REGISTRY_USER')} -p {os.getenv('ALIYUN_REGISTRY_PASSWORD')} {os.getenv('ALIYUN_REGISTRY')}")
@@ -51,13 +55,22 @@ def main():
                 continue
             
             platform = re.search(r"--platform\s*=\s*([^ ]+)", line)
-            platform_prefix = f"{platform.group(1).replace('/', '_')}_ " if platform else ""
+            platform_prefix = sanitize_tag(platform.group(1).replace('/', '_')) if platform else ""
             
             image = line.split()[-1].split('@')[0]  # 获取镜像完整名称并去除@sha256等字符
             name_space, image_name, tag = parse_image_info(image)
             
-            name_space_prefix = f"{name_space}_" if image_name in duplicate_images and name_space else ""
-            new_image = f"{os.getenv('ALIYUN_REGISTRY')}/{os.getenv('ALIYUN_NAME_SPACE')}/{platform_prefix}{name_space_prefix}{image_name}:{tag}"
+            name_space_prefix = sanitize_tag(name_space) if image_name in duplicate_images and name_space else ""
+            
+            # 生成新的tag
+            new_tag_parts = [tag] if tag else []
+            if platform_prefix:
+                new_tag_parts.append(platform_prefix)
+            if name_space_prefix:
+                new_tag_parts.append(name_space_prefix)
+            new_tag = '_'.join(new_tag_parts)
+            
+            new_image = f"{os.getenv('ALIYUN_REGISTRY')}/{os.getenv('ALIYUN_NAME_SPACE')}/{image_name}:{new_tag}"
             
             # 拉取、标记、推送镜像
             run_command(f"docker pull {image}")
