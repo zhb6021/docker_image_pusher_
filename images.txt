@@ -1,1 +1,1 @@
-percona/percona-xtrabackup:2.4
+plugins/docker:20.10.9
