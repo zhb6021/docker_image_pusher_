@@ -1,1 +1,1 @@
-bladex/sentinel-dashboard:1.8.0
+seataio/seata-server:1.4.2
