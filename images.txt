@@ -1,1 +1,1 @@
-plugins/docker:20.10.9
+bladex/sentinel-dashboard:1.8.0
