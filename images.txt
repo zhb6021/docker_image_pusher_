@@ -1,1 +1,1 @@
-jimmidyson/configmap-reload:v0.4.0
+grafana/grafana:7.1.1
