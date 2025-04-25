@@ -1,1 +1,1 @@
-seataio/seata-server:1.4.2
+prom/prometheus:v2.20.1
