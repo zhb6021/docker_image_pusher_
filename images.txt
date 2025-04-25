@@ -1,1 +1,1 @@
-prom/pushgateway:v1.2.0
+jimmidyson/configmap-reload:v0.4.0
