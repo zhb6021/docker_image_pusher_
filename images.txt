@@ -1,1 +1,1 @@
-google/cadvisor:latest
+sonatype/nexus3:latest
