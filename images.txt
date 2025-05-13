@@ -7,7 +7,7 @@
 
 #gcr.io/kubeflow-images-public/pytorch-operator:v1alpha2
 #mysql:8.4.0
-#redis:7.0-alpine3.16
+redis:8.0-alpine3.16
 #alpine:3.16
 #nacos/nacos-server:v2.3.0
 # openjdk:21
@@ -43,4 +43,4 @@
 #kong:3.9.0
 #kubernetesui/dashboard:v2.7.0
 #kubernetesui/metrics-scraper:v1.0.8
-flink:1.20.0
+#flink:1.20.0
