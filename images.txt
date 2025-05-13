@@ -80,8 +80,10 @@
 #zlmediakit/zlmediakit:master
 
 
-library/ubuntu:focal
-ossrs/srs:ubuntu20
+#library/ubuntu:focal
+#ossrs/srs:ubuntu20
+
+continuumio/miniconda3:25.3.1-1
 
 
 #支持指定架构
