@@ -1,2 +1,1 @@
 AlexxIT/go2rtc:latest
-wuwentao/midea_ac_lan
