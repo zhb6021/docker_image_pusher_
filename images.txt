@@ -1,5 +1,5 @@
 awakenedy/postgres
-wakenedy/redis
+redis
 awakenedy/mariadb
 awakenedy/mongodb
 nginx
