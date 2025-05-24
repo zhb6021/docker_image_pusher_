@@ -38,4 +38,5 @@
 #janson/excalidraw:v0.13.0
 #janson/excalidraw-storage-backend:v0.13.0
 #janson/excalidraw-room:v0.13.0
-adguard/adguardhome
+#adguard/adguardhome
+xhongc/music_tag_web:latest
