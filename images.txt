@@ -1,12 +1,13 @@
-learnedmachine/speakr:latest
+murtaza-nasir/speakr:latest
+#learnedmachine/speakr:latest
 #nacos/nacos-server:v2.1.0
 #nacos/nacos-server
 #registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.9.1-management
 #redis:latest
 #rabbitmq:3.9.15-management
 #herberthe0229/iptv-sources:latest
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.4@sha256:a9f03b34a3cbfbb26d103a14046ab2c5130a80c3d69d526ff8063d2b37b9fd3f
-#registry.k8s.io/ingress-nginx/controller:v1.12.0-beta.0@sha256:9724476b928967173d501040631b23ba07f47073999e80e34b120e8db5f234d5
+#registry.k8s.io/ingress-nginx/kube-webhook-#certgen:v1.4.4@sha256:a9f03b34a3cbfbb26d103a14046ab2c5130a80c3d69d526ff8063d2b37b9fd3f
+#registry.k8s.io/ingress-nginx/controller:v1.12.0-#beta.0@sha256:9724476b928967173d501040631b23ba07f47073999e80e34b120e8db5f234d5
 #registry.k8s.io/pause:3.8
 #coredns/coredns:1.9.3
 #docker.io/calico/kube-controllers:v3.25.0
@@ -26,8 +27,8 @@ learnedmachine/speakr:latest
 #docker.elastic.co/kibana/kibana:8.9.1
 #docker.elastic.co/elasticsearch/elasticsearch:8.9.1
 #mobz/elasticsearch-head:5
-#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407@sha256:543c40fd093964bc9ab509d3e791f9989963021f1e9e4c9c7b6700b02bfb227b
-#registry.k8s.io/ingress-nginx/controller:v1.8.0@sha256:744ae2afd433a395eeb13dc03d3313facba92e96ad71d9feaafc85925493fee3
+#registry.k8s.io/ingress-nginx/kube-webhook-#certgen:v20230407@sha256:543c40fd093964bc9ab509d3e791f9989963021f1e9e4c9c7b6700b02bfb227b
+#registry.k8s.io/ingress-#nginx/controller:v1.8.0@sha256:744ae2afd433a395eeb13dc03d3313facba92e96ad71d9feaafc85925493fee3
 #docker.elastic.co/kibana/kibana:7.12.1
 #busybox:1.32
 #docker.elastic.co/elasticsearch/elasticsearch:7.12.1
@@ -50,8 +51,8 @@ learnedmachine/speakr:latest
 #docker.elastic.co/kibana/kibana:7.17.2
 #docker.elastic.co/logstash/logstash:7.17.2
 #docker.elastic.co/beats/filebeat:7.17.2
-#registry.k8s.io/ingress-nginx/controller:v1.11.0@sha256:a886e56d532d1388c77c8340261149d974370edca1093af4c97a96fb1467cb39
-#registry.k8s.io/ingress-nginx/controller-chroot:v1.11.0@sha256:f16dfed1c94d216b65e5dcb7508ab46148641a99649c5a700749db6f01a7039e
+#registry.k8s.io/ingress-#nginx/controller:v1.11.0@sha256:a886e56d532d1388c77c8340261149d974370edca1093af4c97a96fb1467cb39
+#registry.k8s.io/ingress-nginx/controller-#chroot:v1.11.0@sha256:f16dfed1c94d216b65e5dcb7508ab46148641a99649c5a700749db6f01a7039e
 #docker.elastic.co/kibana/kibana:8.14.3
 #docker.elastic.co/elasticsearch/elasticsearch:8.14.3
 #docker.elastic.co/elasticsearch/elasticsearch:7.13.1
@@ -81,7 +82,7 @@ learnedmachine/speakr:latest
 #docker.io/kiwigrid/k8s-sidecar:1.27.4
 #jenkins/jnlp-agent-maven:latest
 #docker.io/bats/bats:1.11.0
-docker.io/jenkins/jenkins
+#docker.io/jenkins/jenkins
 #jenkins/inbound-agent:3256.v88a_f6e922152-1
 #python:3
 #docker.io/jenkins/jenkins:2.452.2-jdk17
