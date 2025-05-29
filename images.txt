@@ -1,3 +1,4 @@
+1
 #learnedmachine/speakr:latest
 #nacos/nacos-server:v2.1.0
 #nacos/nacos-server
