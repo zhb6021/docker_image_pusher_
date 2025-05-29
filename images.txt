@@ -1,5 +1,5 @@
 murtaza-nasir/speakr:latest
-#nacos/nacos-server:v2.1.0
+nacos/nacos-server:v2.1.0
 #nacos/nacos-server
 #registry.cn-hangzhou.aliyuncs.com/zhengqing/rabbitmq:3.9.1-management
 #redis:latest
