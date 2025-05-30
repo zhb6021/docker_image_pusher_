@@ -83,8 +83,8 @@
 #library/ubuntu:focal
 #ossrs/srs:ubuntu20
 
-continuumio/miniconda3:25.3.1-1
-
+#continuumio/miniconda3:25.3.1-1
+ghcr.io/osgeo/gdal:alpine-normal-3.8.4
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
