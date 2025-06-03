@@ -1,1 +1,1 @@
-gitlab/gitlab-runner:v14.7.0
+sonarqube:latest
