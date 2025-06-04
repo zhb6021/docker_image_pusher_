@@ -10,7 +10,10 @@
 # openjdk:17-jdk-slim
 # node:20.11.1-slim
 # debian:bookworm
-opea/codetrans:latest
+# opea/codetrans:latest
+opea/vllm:latest
+opea/llm-textgen:latest
+opea/nginx:latest
 
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
