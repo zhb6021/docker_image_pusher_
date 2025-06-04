@@ -1,1 +1,1 @@
-sonarqube:latest
+oxynozeta/s3-proxy:latest
