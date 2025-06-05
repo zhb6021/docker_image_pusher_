@@ -1,1 +1,1 @@
-registry.kubernetes-devops.cn/library/busybox:latest
+registry.kubernetes-devops.cn/library/sonarqube:lts
