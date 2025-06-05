@@ -1,1 +1,1 @@
-oxynozeta/s3-proxy:latest
+registry.kubernetes-devops.cn/library/busybox:latest
