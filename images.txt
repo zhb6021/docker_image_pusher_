@@ -15,11 +15,11 @@
 #opea/llm-textgen:latest
 #opea/nginx:latest
 
-ghcr.io/huggingface/text-generation-inference:2.4.0-intel-cpu
-postgres:latest
-opea/text2sql:latest
-opea/text2sql-react-ui:latest
-
+#ghcr.io/huggingface/text-generation-inference:2.4.0-intel-cpu
+#postgres:latest
+#opea/text2sql:latest
+#opea/text2sql-react-ui:latest
+nginx:alpine
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
