@@ -11,9 +11,14 @@
 # node:20.11.1-slim
 # debian:bookworm
 # opea/codetrans:latest
-opea/vllm:latest
-opea/llm-textgen:latest
-opea/nginx:latest
+#opea/vllm:latest
+#opea/llm-textgen:latest
+#opea/nginx:latest
+
+ghcr.io/huggingface/text-generation-inference:2.4.0-intel-cpu
+postgres:latest
+opea/text2sql:latest
+opea/text2sql-react-ui:latest
 
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
