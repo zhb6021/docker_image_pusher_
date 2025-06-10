@@ -19,7 +19,16 @@
 #postgres:latest
 #opea/text2sql:latest
 #opea/text2sql-react-ui:latest
-nginx:alpine
+#nginx:alpine
+
+ghcr.io/huggingface/text-embeddings-inference:cpu-1.6
+opea/embedding:v1.3
+opea/web-retriever:v1.3
+opea/reranking:v1.3
+opea/llm-textgen:v1.3
+opea/searchqna:v1.3
+opea/searchqna-ui:v1.3
+
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
