@@ -3,7 +3,6 @@ nginx
 eclipse-temurin:17-jdk-alpine
 eclipse-temurin:21-jdk-jammy
 openjdk:17-jdk-slim
-openjdk:21-jre
 springio/spring-boot:3.2.0
 quarkus/quarkus:2.16.0-jvm
 quarkus/quarkus:2.16.0-native
