@@ -1,31 +1,31 @@
-eclipse-temurin:alpine
-eclipse-temurin:jammy
-openjdk:slim
-quarkus/quarkus:jvm
-quarkus/quarkus:native
-micronaut/micronaut
-tomcat:slim
-jboss/wildfly
-maven:alpine
-gradle:alpine
-python:alpine
-python:slim
-pytorch/pytorch:cuda-runtime
-pytorch/pytorch:runtime
-tensorflow/tensorflow:gpu
-tensorflow/tensorflow
-nvidia/cuda:runtime
-huggingface/transformers-pytorch-gpu
-apache/hadoop
-apache/spark
-apache/kafka
-apache/zookeeper
-apache/hive
-apache/flink
-elasticsearch
-apache/cassandra
-apache/nifi
-bitnami/redis
-apache/airflow
-debezium/connect
-
+- eclipse-temurin:17.0.15_6-jdk-alpine
+- eclipse-temurin:21.0.7_6-jdk-jammy
+- openjdk:17.0.15-slim
+- springio/spring-boot:3.4.2
+- quarkus/quarkus:3.19.2-jvm
+- quarkus/quarkus:3.19.2-native
+- micronaut/micronaut:4.8.16
+- tomcat:10.1.42-jre17-slim
+- jboss/wildfly:36.0.1.Final
+- maven:3.9.10-eclipse-temurin-17-alpine
+- gradle:8.14.2-jdk17-alpine
+- python:3.11.11-alpine3.19
+- python:3.11.11-slim
+- pytorch/pytorch:2.4.1-cuda12.4-cudnn9-runtime
+- pytorch/pytorch:2.4.1-runtime
+- tensorflow/tensorflow:2.18.0-gpu
+- tensorflow/tensorflow:2.18.0
+- nvidia/cuda:12.4.1-cudnn9-runtime-ubuntu22.04
+- huggingface/transformers-pytorch-gpu:4.35.2
+- apache/hadoop:3.4.1
+- apache/spark:3.5.1
+- apache/kafka:3.7.1
+- apache/zookeeper:3.9.3
+- apache/hive:4.0.1
+- apache/flink:1.19.2-scala_2.12-java11
+- elasticsearch:8.11.2
+- apache/cassandra:5.0.4
+- apache/nifi:1.28.1
+- bitnami/redis:7.2.8
+- apache/airflow:3.0.2
+- debezium/connect:2.6.1.Final
