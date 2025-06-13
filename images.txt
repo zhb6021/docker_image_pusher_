@@ -1,2 +1,1 @@
-zookeeper:latest
-
+quartz:2.5.0-oe2403sp1
