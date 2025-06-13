@@ -1,1 +1,1 @@
-quartz:latest
+gateway:1.2.0
