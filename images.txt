@@ -1,1 +1,1 @@
-rabbitmq:4.1.1
+kafka:4.0.0
