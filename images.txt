@@ -1,1 +1,1 @@
-kafka:4.0.0
+logstash:8.18.2
