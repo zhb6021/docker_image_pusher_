@@ -15,6 +15,9 @@ zerotier/zerotier
 b3log/siyuan
 nocobase/nocobase
 
+ngc7331/mcsmanager-daemon
+ngc7331/mcsmanager-web
+
 ghcr.io/gethomepage/homepage
 
 jericx/syncclipboard-server
