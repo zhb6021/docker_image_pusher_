@@ -1,1 +1,1 @@
-elasticsearch:9.0.2
+rabbitmq:4.1.1
