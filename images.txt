@@ -1,1 +1,1 @@
-quartz
+quartz:latest
