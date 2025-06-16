@@ -1,1 +1,1 @@
-sun-panel:beta
+sun-panel:1.8.0
