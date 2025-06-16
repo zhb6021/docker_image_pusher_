@@ -1,1 +1,1 @@
-sun-panel
+sun-panel:beta
