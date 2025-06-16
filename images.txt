@@ -1,1 +1,1 @@
-kibana:9.0.2
+sun-panel
