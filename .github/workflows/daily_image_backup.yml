@@ -1,0 +1,29 @@
+name: Daily Docker Image Backup
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Daily at 02:00 UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  backup_images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install aiohttp
+
+      - name: Run image backup script
+        run: python main.py
+        env:
+          TARGET_REGISTRY_URL: ${{ secrets.TARGET_REGISTRY_URL_SECRET }}
+          TARGET_NAMESPACE: ${{ secrets.TARGET_NAMESPACE_SECRET }}
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME_SECRET }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD_SECRET }}

@@ -151,3 +151,33 @@ The script performs the following steps:
 *   The script logs all operations, including errors, to the console using Python's `logging` module.
 *   It will exit immediately if critical configuration (environment variables) is missing or if the initial login to the target Docker registry fails.
 *   For errors encountered during the processing of a specific image or tag (e.g., pull failure, push failure), the script will log the error and attempt to continue with the next tag or image URL.
+
+## Automated Daily Backup Workflow (`.github/workflows/daily_image_backup.yml`)
+
+This repository includes a GitHub Actions workflow that automates the daily execution of the `main.py` script to back up Docker images.
+
+### Features
+
+- **Scheduled Execution:** Runs automatically every day at 02:00 UTC.
+- **Manual Trigger:** Can also be triggered manually from the GitHub Actions tab.
+- **Secure Configuration:** Uses GitHub Actions Secrets to store sensitive information like registry credentials.
+
+### Workflow Configuration
+
+To use this workflow, you need to configure the following secrets in your GitHub repository settings (`Settings > Secrets and variables > Actions > New repository secret`):
+
+-   **`TARGET_REGISTRY_URL_SECRET`**: The URL of your target private registry (e.g., `ccr.ccs.tencentyun.com` or `registry.aliyuncs.com`).
+-   **`TARGET_NAMESPACE_SECRET`**: The namespace within your target private registry where images will be stored (e.g., `my-docker-images` or `my-project`).
+-   **`DOCKER_USERNAME_SECRET`**: The username for authenticating with your target private registry.
+-   **`DOCKER_PASSWORD_SECRET`**: The password for authenticating with your target private registry.
+
+### How it Works
+
+The workflow performs the following steps:
+
+1.  **Checks out** the repository code.
+2.  **Sets up** a Python 3.9 environment.
+3.  **Installs** the required Python dependency (`aiohttp`).
+4.  **Executes** the `main.py` script, passing the configured secrets as environment variables to the script. The script then handles the image backup logic as described in the "Command-Line Script: `main.py`" section.
+
+Logs from the script execution can be viewed in the GitHub Actions run history for this workflow.
