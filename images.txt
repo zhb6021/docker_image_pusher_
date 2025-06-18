@@ -1,1 +1,1 @@
-sonarqube:lts-community
+bitnami/openldap:latest
