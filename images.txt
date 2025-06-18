@@ -1,1 +1,1 @@
-ghcr.io/anduin2017/how-to-cook:latest
+mzzsfy/auto-proxy-pool
