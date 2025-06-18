@@ -1,1 +1,1 @@
-phpldapadmin/phpldapadmin:latest
+osixia/phpldapadmin:latest
