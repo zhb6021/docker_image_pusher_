@@ -1,1 +1,1 @@
-bitnami/openldap:latest
+phpldapadmin/phpldapadmin:latest
