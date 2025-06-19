@@ -1,1 +1,1 @@
-osixia/phpldapadmin:latest
+osixia/openldap:latest
