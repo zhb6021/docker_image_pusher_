@@ -1,1 +1,2 @@
-osixia/openldap:latest
+bitnami/openldap:latest
+bitnami/phpmyadmin:latest
