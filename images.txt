@@ -1,2 +1,1 @@
-bitnami/openldap:latest
-bitnami/phpmyadmin:latest
+  bitnami/mariadb-galera:latest
