@@ -51,57 +51,57 @@ registry.cn-hangzhou.aliyuncs.com 即 ALIYUN_REGISTRY<br>
 shrimp-images 即 ALIYUN_NAME_SPACE<br>
 alpine 即images.txt里面填的镜像<br>
 
-## Command-Line Script: `main.py`
+## 命令行脚本: `main.py`
 
-This script provides a command-line interface to back up Docker images from Docker Hub to a specified private registry. It fetches image tags, pulls the images, re-tags them for the target registry, pushes them, and keeps a record of backed-up images to avoid redundant operations.
+该脚本提供了一个命令行界面，用于将 Docker Hub 上的 Docker 镜像备份到指定的私有仓库。它会获取镜像标签，拉取镜像，为目标仓库重新标记镜像，推送它们，并记录已备份的镜像以避免重复操作。
 
-### Prerequisites
+### 先决条件
 
-*   Python 3.7+ (due to `asyncio` and `aiohttp`).
-*   Docker installed and running on the machine where the script is executed.
-*   Network access to Docker Hub (for fetching public images).
-*   Credentials and access to a target private Docker registry (e.g., Tencent Cloud CCR, Alibaba Cloud ACR, Docker Hub private repos, etc.).
+*   Python 3.7+ (由于使用了 `asyncio` 和 `aiohttp`)。
+*   在脚本执行的机器上已安装并正在运行 Docker。
+*   可以访问 Docker Hub 的网络 (用于获取公共镜像)。
+*   拥有目标私有 Docker 仓库的凭据和访问权限 (例如，腾讯云 CCR、阿里云 ACR、Docker Hub 私有仓库等)。
 
-### Dependencies
+### 依赖项
 
-The script requires the following Python package:
+该脚本需要以下 Python 包:
 *   `aiohttp`
 
-You can install it using pip:
+您可以使用 pip 安装它:
 ```bash
 pip install aiohttp
 ```
 
-### Configuration
+### 配置
 
-Configuration is managed via environment variables for credentials and target registry details, and command-line arguments for operational parameters.
+配置通过环境变量管理凭据和目标仓库详细信息，通过命令行参数管理操作参数。
 
-#### Environment Variables (Mandatory)
+#### 环境变量 (必需)
 
-These environment variables **must** be set before running the script. The script will exit if any of them are missing.
+在运行脚本之前 **必须** 设置这些环境变量。如果缺少任何一个，脚本将退出。
 
-*   `TARGET_REGISTRY_URL`: The URL of your target private registry.
-    *   Example: `ccr.ccs.tencentyun.com` or `registry.aliyuncs.com` or `docker.io` (for Docker Hub).
-*   `TARGET_NAMESPACE`: The namespace within your target private registry where images will be stored.
-    *   Example: `my-docker-backups` or `myusername` (if using Docker Hub as the target).
-*   `DOCKER_USERNAME`: Your username for authenticating with the `TARGET_REGISTRY_URL`.
-*   `DOCKER_PASSWORD`: Your password for authenticating with the `TARGET_REGISTRY_URL`.
+*   `TARGET_REGISTRY_URL`: 您的目标私有仓库的 URL。
+    *   示例: `ccr.ccs.tencentyun.com` 或 `registry.aliyuncs.com` 或 `docker.io` (用于 Docker Hub)。
+*   `TARGET_NAMESPACE`: 您的目标私有仓库中用于存储镜像的命名空间。
+    *   示例: `my-docker-backups` 或 `myusername` (如果使用 Docker Hub 作为目标)。
+*   `DOCKER_USERNAME`: 用于向 `TARGET_REGISTRY_URL` 进行身份验证的用户名。
+*   `DOCKER_PASSWORD`: 用于向 `TARGET_REGISTRY_URL` 进行身份验证的密码。
 
-#### Command-line Arguments
+#### 命令行参数
 
-These arguments are optional and provide control over the script's execution:
+这些参数是可选的，用于控制脚本的执行:
 
-*   `--num-tags` (`-n`): The number of latest tags to fetch and process for each image.
-    *   Default: `5`
-*   `--record-file` (`-r`): Path to the file used for recording backed-up images to prevent re-processing.
-    *   Default: `backed_up_images.txt`
-*   `--image-urls` (`-u`): A comma-separated string of Docker Hub image URLs to process. This allows you to specify which images to back up.
-    *   Example: `"https://hub.docker.com/_/nginx/tags,https://hub.docker.com/r/prom/prometheus/tags"`
-    *   If not provided, the script uses a default list of image URLs hardcoded in `main.py`.
+*   `--num-tags` (`-n`): 为每个镜像获取和处理的最新标签数量。
+    *   默认值: `5`
+*   `--record-file` (`-r`): 用于记录已备份镜像以防止重复处理的文件路径。
+    *   默认值: `backed_up_images.txt`
+*   `--image-urls` (`-u`): 以逗号分隔的 Docker Hub 镜像 URL 字符串，用于指定要处理的镜像。
+    *   示例: `"https://hub.docker.com/_/nginx/tags,https://hub.docker.com/r/prom/prometheus/tags"`
+    *   如果未提供，脚本将使用 `main.py` 中硬编码的默认镜像 URL 列表。
 
-### Running the Script
+### 运行脚本
 
-1.  **Set Environment Variables:**
+1.  **设置环境变量:**
     ```bash
     export TARGET_REGISTRY_URL="your-registry.example.com"
     export TARGET_NAMESPACE="your-namespace"
@@ -109,75 +109,75 @@ These arguments are optional and provide control over the script's execution:
     export DOCKER_PASSWORD="your-registry-password"
     ```
 
-2.  **Execute `main.py`:**
+2.  **执行 `main.py`:**
     ```bash
-    python main.py [OPTIONS]
+    python main.py [选项]
     ```
-    For example, to back up the 3 latest tags for `alpine` and `redis`:
+    例如，备份 `alpine` 和 `redis` 的最新3个标签:
     ```bash
     python main.py -n 3 -u "https://hub.docker.com/_/alpine/tags,https://hub.docker.com/_/redis/tags"
     ```
-    To use the default image list and fetch 5 tags per image:
+    使用默认镜像列表并为每个镜像获取5个标签:
     ```bash
     python main.py
     ```
 
-    The script will log its progress to the standard output, including information about fetching tags, pulling, tagging, pushing images, and any errors encountered.
+    脚本会将其进度记录到标准输出，包括获取标签、拉取、标记、推送镜像以及遇到的任何错误的信息。
 
-### How it Works
+### 工作原理
 
-The script performs the following steps:
+脚本执行以下步骤:
 
-1.  **Configuration Loading:** Reads environment variables and parses command-line arguments.
-2.  **Docker Login:** Logs into the target Docker registry using the provided credentials. Exits if login fails.
-3.  **Image Processing Loop:** For each source image URL specified:
-    a.  **Fetch Tags:** Retrieves the specified number of latest tags from Docker Hub using its API.
-    b.  **Tag Processing Loop:** For each fetched tag:
-        i.  **Check Backup Record:** Consults the record file (e.g., `backed_up_images.txt`) to see if the specific image and tag combination has already been backed up. If yes, skips to the next tag.
-        ii. **Pull:** If not backed up, pulls the image from Docker Hub (e.g., `nginx:latest`).
-        iii. **Tag:** Re-tags the pulled image for the target private registry (e.g., `your-registry.example.com/your-namespace/nginx:latest`).
-        iv. **Push:** Pushes the newly tagged image to the target private registry.
-        v.  **Record Backup:** If all previous steps (pull, tag, push) are successful, adds an entry for the image and tag to the record file.
+1.  **加载配置:** 读取环境变量并解析命令行参数。
+2.  **Docker 登录:** 使用提供的凭据登录到目标 Docker 仓库。如果登录失败则退出。
+3.  **镜像处理循环:** 对于指定的每个源镜像 URL:
+    a.  **获取标签:** 使用其 API 从 Docker Hub 检索指定数量的最新标签。
+    b.  **标签处理循环:** 对于获取的每个标签:
+        i.  **检查备份记录:** 查询记录文件 (例如 `backed_up_images.txt`)，看是否已备份特定的镜像和标签组合。如果是，则跳到下一个标签。
+        ii. **拉取 (Pull):** 如果未备份，则从 Docker Hub 拉取镜像 (例如 `nginx:latest`)。
+        iii. **标记 (Tag):** 为目标私有仓库重新标记拉取的镜像 (例如 `your-registry.example.com/your-namespace/nginx:latest`)。
+        iv. **推送 (Push):** 将新标记的镜像推送到目标私有仓库。
+        v.  **记录备份:** 如果所有先前的步骤 (拉取、标记、推送) 都成功，则将镜像和标签的条目添加到记录文件。
 
-### Record File
+### 记录文件
 
-*   The record file (default: `backed_up_images.txt`) stores a list of image and tag combinations that have been successfully backed up.
-*   Each line in the file has the format: `image_name_on_hub:tag`
-    *   Example: `nginx:1.25` or `prom/prometheus:v2.40.0`
-*   This file ensures that the script does not re-process images and tags that have already been backed up, saving time and resources.
+*   记录文件 (默认: `backed_up_images.txt`) 存储已成功备份的镜像和标签组合的列表。
+*   文件中的每一行格式为: `镜像在Hub上的名称:标签`
+    *   示例: `nginx:1.25` 或 `prom/prometheus:v2.40.0`
+*   该文件确保脚本不会重复处理已备份的镜像和标签，从而节省时间和资源。
 
-### Error Handling
+### 错误处理
 
-*   The script logs all operations, including errors, to the console using Python's `logging` module.
-*   It will exit immediately if critical configuration (environment variables) is missing or if the initial login to the target Docker registry fails.
-*   For errors encountered during the processing of a specific image or tag (e.g., pull failure, push failure), the script will log the error and attempt to continue with the next tag or image URL.
+*   脚本使用 Python 的 `logging` 模块将所有操作 (包括错误) 记录到控制台。
+*   如果缺少关键配置 (环境变量) 或初始登录到目标 Docker 仓库失败，脚本将立即退出。
+*   对于在处理特定镜像或标签期间遇到的错误 (例如，拉取失败、推送失败)，脚本将记录错误并尝试继续处理下一个标签或镜像 URL。
 
-## Automated Daily Backup Workflow (`.github/workflows/daily_image_backup.yml`)
+## 自动化每日备份工作流 (`.github/workflows/daily_image_backup.yml`)
 
-This repository includes a GitHub Actions workflow that automates the daily execution of the `main.py` script to back up Docker images.
+该仓库包含一个 GitHub Actions 工作流，可自动每日执行 `main.py` 脚本以备份 Docker 镜像。
 
-### Features
+### 特性
 
-- **Scheduled Execution:** Runs automatically every day at 02:00 UTC.
-- **Manual Trigger:** Can also be triggered manually from the GitHub Actions tab.
-- **Secure Configuration:** Uses GitHub Actions Secrets to store sensitive information like registry credentials.
+- **定时执行:** 每天 UTC 时间 02:00 自动运行。
+- **手动触发:** 也可以从 GitHub Actions 选项卡手动触发。
+- **安全配置:** 使用 GitHub Actions Secrets 存储敏感信息，如仓库凭据。
 
-### Workflow Configuration
+### 工作流配置
 
-To use this workflow, you need to configure the following secrets in your GitHub repository settings (`Settings > Secrets and variables > Actions > New repository secret`):
+要使用此工作流，您需要在您的 GitHub 仓库设置中配置以下 Secrets (`Settings > Secrets and variables > Actions > New repository secret`):
 
--   **`TARGET_REGISTRY_URL_SECRET`**: The URL of your target private registry (e.g., `ccr.ccs.tencentyun.com` or `registry.aliyuncs.com`).
--   **`TARGET_NAMESPACE_SECRET`**: The namespace within your target private registry where images will be stored (e.g., `my-docker-images` or `my-project`).
--   **`DOCKER_USERNAME_SECRET`**: The username for authenticating with your target private registry.
--   **`DOCKER_PASSWORD_SECRET`**: The password for authenticating with your target private registry.
+-   **`TARGET_REGISTRY_URL_SECRET`**: 您的目标私有仓库的 URL (例如, `ccr.ccs.tencentyun.com` 或 `registry.aliyuncs.com`)。
+-   **`TARGET_NAMESPACE_SECRET`**: 您的目标私有仓库中用于存储镜像的命名空间 (例如, `my-docker-images` 或 `my-project`)。
+-   **`DOCKER_USERNAME_SECRET`**: 用于向您的目标私有仓库进行身份验证的用户名。
+-   **`DOCKER_PASSWORD_SECRET`**: 用于向您的目标私有仓库进行身份验证的密码。
 
-### How it Works
+### 工作原理
 
-The workflow performs the following steps:
+该工作流执行以下步骤:
 
-1.  **Checks out** the repository code.
-2.  **Sets up** a Python 3.9 environment.
-3.  **Installs** the required Python dependency (`aiohttp`).
-4.  **Executes** the `main.py` script, passing the configured secrets as environment variables to the script. The script then handles the image backup logic as described in the "Command-Line Script: `main.py`" section.
+1.  **检出 (Checks out)** 仓库代码。
+2.  **设置 (Sets up)** Python 3.9 环境。
+3.  **安装 (Installs)** 所需的 Python 依赖 (`aiohttp`)。
+4.  **执行 (Executes)** `main.py` 脚本，并将配置的 Secrets作为环境变量传递给脚本。然后，脚本按照 "命令行脚本: `main.py`" 部分所述处理镜像备份逻辑。
 
-Logs from the script execution can be viewed in the GitHub Actions run history for this workflow.
+脚本执行的日志可以在此工作流的 GitHub Actions 运行历史中查看。
