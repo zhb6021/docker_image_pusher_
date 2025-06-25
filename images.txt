@@ -87,7 +87,9 @@
 #ghcr.io/osgeo/gdal:alpine-normal-3.8.4
 
 
-apache/rocketmq:5.3.3
+#apache/rocketmq:5.3.3
+
+portainer/portainer-ce:2.27.8
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
