@@ -47,4 +47,5 @@
 #feiyu563/prometheus-alert:v4.9.1
 #prom/prometheus:latest
 #grafana/grafana:latest
-prom/node-exporter:latest
+#prom/node-exporter:latest
+prom/alertmanager:latest
