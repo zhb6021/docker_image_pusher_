@@ -1,2 +1,2 @@
-zabbix/zabbix-server-mysql:6.4-latest
-zabbix/zabbix-web-nginx-mysql:6.4-latest
+zabbix/zabbix-server-mysql:6.4
+zabbix/zabbix-web-nginx-mysql:6.4
