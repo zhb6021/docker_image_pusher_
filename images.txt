@@ -1,2 +1,1 @@
-zabbix/zabbix-server-mysql:latest
-zabbix/zabbix-web-nginx-mysql:latest
+mysql:5.7
