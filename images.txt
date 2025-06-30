@@ -1,2 +1,2 @@
-zabbix-server-mysql:6.4-latest
-zabbix-web-nginx-mysql:6.4-latest
+docker pull zabbix/zabbix-server-mysql:latest
+docker pull zabbix/zabbix-web-nginx-mysql:latest
