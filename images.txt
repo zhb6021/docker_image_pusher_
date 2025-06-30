@@ -91,7 +91,12 @@
 
 #portainer/portainer-ce:2.27.8
 
-portainer/agent:2.27.8
+#portainer/agent:2.27.8
+
+
+grafana/grafana:12.0.2
+bitnami/prometheus:3.4.1
+bitnami/alertmanager:0.28.1
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
