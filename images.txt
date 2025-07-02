@@ -97,8 +97,10 @@
 #grafana/grafana:12.0.2
 #bitnami/prometheus:3.4.1
 #bitnami/alertmanager:0.28.1
-prom/node-exporter:v1.9.1
+#prom/node-exporter:v1.9.1
 
+grafana/alloy:v1.9.2
+grafana/loki:main-241e721
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
