@@ -1,4 +1,4 @@
-1
+crpi-8mxxyq37t3w9t2kj.cn-hangzhou.personal.cr.aliyuncs.com/stonedtx/stonedt_yuqing:1.0.10
 #learnedmachine/speakr:latest
 #nacos/nacos-server:v2.1.0
 #nacos/nacos-server
