@@ -1,6 +1,17 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+linuxserver/qbittorrent
+cloudnas/clouddrive2-unstable
+gdy666/lucky
+hsuyelin/nas-tools
+stainless403/mdcx-builtin-gui-base
+ghcr.io/metacubex/metacubexd
+docker.io/metacubex/mihomo:Alpha
+gotson/komga
+ghcr.io/home-assistant/home-assistant:stable
+nodered/node-red:latest
+jxxghp/moviepilot:latest
+lscr.io/linuxserver/librespeed:latest
+hslr/sun-panel:latest
+lscr.io/linuxserver/transmission:latest
+0nlylty/dockercopilot:ZSPACE
+zhaojun1998/zfile:latest
+
