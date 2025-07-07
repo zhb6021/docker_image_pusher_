@@ -1,4 +1,3 @@
-xhofe/alist:latest
 linuxserver/qbittorrent
 cloudnas/clouddrive2-unstable
 gdy666/lucky
@@ -13,15 +12,6 @@ jxxghp/moviepilot:latest
 lscr.io/linuxserver/librespeed:latest
 hslr/sun-panel:latest
 lscr.io/linuxserver/transmission:latest
-ydkn/cups
-docker.io/jc21/nginx-proxy-manager:latest
 0nlylty/dockercopilot:ZSPACE
-zadam/trilium:latest
-nriver/trilium-cn:latest
-olbat/cupsd
 zhaojun1998/zfile:latest
-itushan/mtab
-axboy/leanote
-amilys/embyserver_arm64v8
-mariadb
 
