@@ -45,7 +45,7 @@
 ghcr.io/huggingface/text-embeddings-inference:cpu-1.5
 ghcr.io/huggingface/text-generation-inference:2.4.0-intel-cpu
 intellabs/vdms:v2.8.0
-mongo/7.0.11
+#mongo/7.0.11
 opea/agent-langchain:1.1
 opea/asr:1.1
 opea/audioqna:1.1
@@ -110,8 +110,6 @@ opea/web-retriever-chroma:1.1
 opea/whisper:1.1
 quay.io/keycloak/keycloak:25.0.2
 redis/redis-stack:7.2.0-v9
-
-
 
 
 
