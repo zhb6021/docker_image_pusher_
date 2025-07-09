@@ -1,4 +1,3 @@
-vastdata/vastbase-vector
 tensorchord/pgvecto-rs:pg16-v0.3.0
 ghcr.io/chroma-core/chroma:0.5.20
 oceanbase/oceanbase-ce:4.3.5-lts
