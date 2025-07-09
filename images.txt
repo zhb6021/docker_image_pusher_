@@ -1,1 +1,1 @@
-goharbor/nginx-photon
+goharbor/nginx-photon:v2.13.1
