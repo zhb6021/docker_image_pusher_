@@ -1,4 +1,12 @@
-debian:bookworm
+kindest/node:v1.33.1
+registry.k8s.io/kube-apiserver:v1.33.1
+registry.k8s.io/kube-controller-manager:v1.33.1
+registry.k8s.io/kube-scheduler:v1.33.1
+registry.k8s.io/etcd:3.5.13-0
+registry.k8s.io/coredns/coredns:v1.12.1
+registry.k8s.io/kube-proxy:v1.31.1
+
+#debian:bookworm
 #grafana/grafana:11.6.1
 #gcr.io/kubecost1/kubecost-modeling:v0.1.26
 #gcr.io/kubecost1/frontend:prod-2.7.2
