@@ -12,11 +12,11 @@
 # debian:bookworm
 
 # codetrans镜像
-opea/codetrans:1.3
-opea/vllm:1.3
-opea/llm-textgen:1.3
-opea/nginx:1.3
-vllm/vllm-openai:0.8.3
+#opea/codetrans:1.3
+#opea/vllm:1.3
+#opea/llm-textgen:1.3
+#opea/nginx:1.3
+vllm/vllm-openai:v0.8.3
 
 #ghcr.io/huggingface/text-generation-inference:2.4.0-intel-cpu
 #postgres:latest
