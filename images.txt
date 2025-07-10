@@ -1,2 +1,1 @@
-sameersbn/gitlab:18.1.2
-sameersbn/postgresql:15
+postgresql:16.9
