@@ -1,9 +1,2 @@
-goharbor/harbor-portal:v2.13.1
-goharbor/harbor-core:v2.13.1
-goharbor/harbor-jobservice:v2.13.1
-goharbor/registry-photon:v2.13.1
-goharbor/harbor-registryctl:v2.13.1
-goharbor/trivy-adapter-photon:v2.13.1
-goharbor/harbor-db:v2.13.1
-goharbor/redis-photon:v2.13.1
-goharbor/harbor-exporter:v2.13.1
+sameersbn/gitlab:18.1.2
+sameersbn/postgresql:15
