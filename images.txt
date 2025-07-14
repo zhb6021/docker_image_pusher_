@@ -1,4 +1,18 @@
 #支持私库
+
+
+jenkins/jenkins:lts-jdk17
+
+
+
+
+
+
+
+
+
+
+
 #ghcr.io/geocompx/docker:qgis
 #mysql:5.7
 #nginx
@@ -103,7 +117,7 @@
 #grafana/loki:main-241e721
 
 #jenkins/jenkins:jdk21
-jenkins/jenkins:2.452-jdk11
+#jenkins/jenkins:2.452-jdk11
 
 #支持指定架构
 #--platform=x86_64 ghcr.io/geocompx/docker:qgis
