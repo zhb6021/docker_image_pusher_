@@ -1,1 +1,1 @@
-jenkins/jenkins:2.518
+jenkins/inbound-agent:jdk21
