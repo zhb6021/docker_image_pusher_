@@ -1,1 +1,1 @@
-jenkins/inbound-agent:jdk21
+maven:3.6.3-jdk-8
