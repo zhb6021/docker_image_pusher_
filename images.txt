@@ -1,1 +1,1 @@
-rustdesk/rustdesk-server:latest
+rustdesk/rustdesk-server:1.1.14
