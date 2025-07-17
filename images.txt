@@ -1,1 +1,1 @@
-gcr.io/kaniko-project/executor:v1.24.0-debug
+rustdesk/rustdesk-server:latest
