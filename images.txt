@@ -1,5 +1,5 @@
 nginx
 containers4pentesters/cewl
-SECFA/AWV
+SECFA/AWVS
 apache/airflow
 
