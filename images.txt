@@ -1,1 +1,2 @@
-rustdesk/rustdesk-server:1.1.14
+apitable/init-db:latest
+apitable/init-appdata:latest
