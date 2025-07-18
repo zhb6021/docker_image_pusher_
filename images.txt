@@ -1,2 +1,1 @@
-apitable/init-db:latest
-apitable/init-appdata:latest
+sonarqube:9.9.8-community
