@@ -1,1 +1,1 @@
-sonarqube:9.9.9-enterprise
+sonarqube:10.4.1-enterprise
