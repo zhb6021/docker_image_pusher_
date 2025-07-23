@@ -1,3 +1,4 @@
+nginx
 #支持私库
 mysql:5.7.37
 nginx:1.23.3
