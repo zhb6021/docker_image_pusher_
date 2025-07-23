@@ -1,6 +1,9 @@
 nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+mysql:5.7.37
+nginx:1.23.3
+consul:1.15.2
+redis:7.0.9
+webcenter/activemq:5.14.3
+onlyoffice/documentserver:7.3.2
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
