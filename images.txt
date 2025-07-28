@@ -54,8 +54,10 @@
 
 
 #huggingface/python:3.11-esgz
-opea/text2sql:1.3
-opea/text2sql-react-ui:1.3
+#opea/text2sql:1.3
+#opea/text2sql-react-ui:1.3
+
+node:20.19.4
 
 
 
