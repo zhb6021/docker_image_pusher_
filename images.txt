@@ -48,4 +48,5 @@
 #prom/prometheus:latest
 #grafana/grafana:latest
 #prom/node-exporter:latest
-prom/alertmanager:latest
+#prom/alertmanager:latest
+wbsu2003/koodo-reader:v6
