@@ -57,7 +57,9 @@
 #opea/text2sql:1.3
 #opea/text2sql-react-ui:1.3
 
-node:20.19.4
+#node:20.19.4
+
+valkey/valkey:8-alpine
 
 
 
