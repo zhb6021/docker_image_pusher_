@@ -49,4 +49,5 @@
 #grafana/grafana:latest
 #prom/node-exporter:latest
 #prom/alertmanager:latest
-wbsu2003/koodo-reader:v6
+#wbsu2003/koodo-reader:v6
+j0k3rsec/readest:0.9.30-amd
