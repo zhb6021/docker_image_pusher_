@@ -1,1 +1,2 @@
-xhongc/music_tag_web
+maven:3.9.4-eclipse-temurin-17-alpine
+mcr.microsoft.com/openjdk/jdk:17-ubuntu
