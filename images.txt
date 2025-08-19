@@ -2,5 +2,14 @@ nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
+infiniflow/ragflow:v0.20.1
+mysql:8.0.39
+elasticsearch:8.11.3
+hub.icert.top/opensearchproject/opensearch:2.19.1
+infiniflow/infinity:v0.6.0-dev5
+infiniflow/sandbox-executor-manager:latest
+quay.io/minio/minio:RELEASE.2025-06-13T11-33-47Z
+valkey/valkey:8
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+
