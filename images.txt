@@ -1,2 +1,3 @@
 # centos:latest
-almalinux:latest
+#almalinux:latest
+mysql:latest
