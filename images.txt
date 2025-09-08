@@ -1,3 +1,4 @@
 # centos:latest
 #almalinux:latest
-mysql:latest
+#mysql:latest
+mysql:9.4.0
